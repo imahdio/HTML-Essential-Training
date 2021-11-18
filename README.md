@@ -1,7 +1,6 @@
-I'm going to archive list of studying doubts of this lesson in here
+This repository created for clarifying the issues of studying
+Html essential training course
+from linkedin learning website
 
-here is direct download link of this video lesson
-http://168.119.85.43/html-essential-training-4/06-Images%20and%20Graphics/01-Images.mp4
-
-full offline archive of this course
+full offline archive of this course has been gathered in here for ease access of study friends
 http://168.119.85.43
