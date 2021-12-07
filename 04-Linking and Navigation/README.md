@@ -54,7 +54,7 @@ The first version creates a URL that's relative to the root level. The second ve
 -The URL http://www.awesomedogs.com/people , points to the people folder.  
 -Anytime the browser is told to go to a URL that is a folder, it automatically looks for an index.html file and loads it. This trick only works for HTML files and makes our URLs pretty or clean. Instead of creating a file named people.html , we can create a folder called people, and inside that folder we put a file named index.html  
 -URLs don't matter whether you include the trailing slash or not which means these three URLs go to exactly the same place.    
-![](https://user-images.githubusercontent.com/64577273/145082994-27eaf198-59d2-42e5-b50e-aff13cc71bc5.jpg)
+![](https://user-images.githubusercontent.com/64577273/145082994-27eaf198-59d2-42e5-b50e-aff13cc71bc5.jpg)  
 -Using relative URLs can be super helpful on a project that moves from server to server while it's being worked on.
 
 eventually-in the end, especially after a long time or a lot of effort, problems, etc.
@@ -83,7 +83,7 @@ craft-to make objects, especially in a skilled way
 -*based on my assumption* , there must be such the following table
 *I reached some unresolved conflicts if the following table is true!*  
 ![](https://user-images.githubusercontent.com/64577273/145083004-c2e9022f-c081-49c9-b65f-4658ab3039b3.jpg)  
--this [Example code](https://codepen.io/jensimmons/pen/vYBrgYz?editors=1000) makes footer using footer element and CSS while It’s not really part of a navigation as third example for using set of links
+-this [Example code](https://codepen.io/jensimmons/pen/vYBrgYz?editors=1000) makes footer using footer element and CSS while It’s not really part of a navigation as third example for using set of links  
 ![](https://user-images.githubusercontent.com/64577273/145083009-ad428b43-988d-4669-8cef-d9b24afc426e.jpg)
 
 major- important, serious, or significant
