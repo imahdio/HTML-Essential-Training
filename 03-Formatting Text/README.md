@@ -196,7 +196,7 @@ span-the period of time that something exists or happens
 > -`<br>`is simple single HTML tag which adds line break and browser respect it
 > ![](https://user-images.githubusercontent.com/64577273/145020704-79e15123-68cd-4ebb-9964-2e59648bf755.jpg)  
 > -`<pre>` make the browser pay attention to any indentation and line breaks in html context.
-> ![](https://user-images.githubusercontent.com/64577273/145020707-9a47ac23-c8ec-4af1-9fa1-3d945aa1b8e2.jpg)
+> ![](https://user-images.githubusercontent.com/64577273/145020707-9a47ac23-c8ec-4af1-9fa1-3d945aa1b8e2.jpg)  
 > -`<pre>` and `<code>` are frequently combined to show a block of code with indentation. In the following example , the whole code is wrapped in `<code>` element to convey meaning of code for browser and other computers and all of that is wrapped in `<pre>` element which maintains the semantic formatting and spacing.
 https://codepen.io/jensimmons/pen/gOYvjpa  
 > ![](https://user-images.githubusercontent.com/64577273/145020718-e04cf912-2f97-4232-a20b-1eacec79ca59.jpg)
