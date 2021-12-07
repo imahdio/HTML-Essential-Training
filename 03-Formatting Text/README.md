@@ -115,7 +115,7 @@ throwaway-something disposable or used for a short period of time
 -HTML or browser doesn't care about any additional indentation in front of list items.
 > Unordered list `<ul>`|Ordered lists `<ol>`|Definition list `<dl>`
 > -|-|-
-> `<ul>`<br>`<li>item</li>`<br>`<li>item</li>`<br>`<li>item</li>`<br>`</ul>`|`<ol>`<br>`<li>item</li>`<br>`<li>item</li>`<br>`<li>item</li>`<br>`</ol>`|`<dl>`<br>`<dt>term</dt>`<br>`<dd>description</dd>`<br>`<dd>description</dd>`<br>`<dt>term</dt>`<br>`<dd>description</dd>`<br>`</dl>`
+> ![](https://user-images.githubusercontent.com/64577273/145017232-83998ced-59a5-4b96-a23b-67fa639f737a.jpg)|![](https://user-images.githubusercontent.com/64577273/145017239-216db8e1-2086-4bc5-91b7-6d6736005c70.jpg)|![](https://user-images.githubusercontent.com/64577273/145017242-bbed4537-9243-4c4d-9a33-5759a4acd116.jpg)
 > We use `<ul>` to convey meaning and then use CSS to totally alter how it looks.|Like said before , CSS can be used to restyle lists to look very different from the default styling.|List of definition terms `<dt>` and definition descriptions `<dd>` of each term
 > We can leave the content in a list shaped layout or we can lay it out however we want.|We can leave the content in a list shaped layout or we can lay it out however we want.|
 > ![](https://user-images.githubusercontent.com/64577273/144982019-4dc43ead-b7b2-4cfc-ae5d-c2a7fb78ed40.jpg)|![](https://user-images.githubusercontent.com/64577273/144982027-ffe8927d-765d-4d5f-b404-488c15641f0b.jpg)|![](https://user-images.githubusercontent.com/64577273/144982036-acd91f81-b890-4293-a161-1c341f17a951.jpg)
@@ -137,8 +137,54 @@ recipe-a set of instructions telling you how to prepare and cook food, including
 lay out something -to arrange in a pattern or design; to plan something by showing how its parts fit together
 
 Incredibly- extremely
+## Quotes
+> -`<cite>` and `<blockquote>` are being used for their HTML semantic value. They convey meaning to other computers and convenient places to use target styling through CSS.
+-in following snippet , we use `<cite>` element to credit jeremy as the person who said the quote and wrap the whole thing in a `<blockquote>` element to distinguish it from surrounding text.  
+![](https://user-images.githubusercontent.com/64577273/145017243-3076e0f4-2062-48ba-8d22-9e6e9b933c2d.jpg)  
+-*based on chapter Quiz lesson* The `<cite>` element identifies sources.  
+-we can put any element inside the blockquote like list or headline while nested inside each other.  
+-`<q>` stands for quote and lets the browser provide the quote marks for us instead of typing the quotes manually.   Its typography shape depends on the language and types of conventions of a particular region can be straight quote marks or curly quote marks.  
+-inline elements wrap around phrases of content that are inline with some other contents like `<q>` , `<strong>` , `<b>` , `<i>` and `<em>` and etc. all other elements are block-level elements like `<blockquote>` , `<p>` , `<ul>`.   They are blocks that can be followed by another block.
+![](https://user-images.githubusercontent.com/64577273/145017249-84c5c983-8723-4392-bd5b-b38ac95b45c5.jpg)  
+-when you use CSS you can switch the layout behavior from block to inline or from inline to block.  
+-*CONFLICT! Based on my tests and tries* , we can use `<ul>` blockquote element nested `<p>` blockquote element which is against the definition of blockquote elements.
 
+passage-a short piece of writing or music that is part of a larger piece of work
 
+quote-to repeat words that someone else has said or written
+
+cite-refer to (a passage, book, or author) as evidence for or justification of an argument or statement, especially in a scholarly work
+
+`<cite>` Tag -defines a person's name or the title of a creative work.
+
+`<blockquote>` Tag -specifies a section that is quoted from another source.
+
+stand out- to be very noticeable
+
+Curly quote and straight quotes-check these examples
+
+intuit-to know or understand something because of a feeling that you have rather than because of facts or what someone has told you.
+
+nerdy-
+
+Typography- the style and appearance of printed matter
+## Dates and times
+> -With HTML time element and its datetime attribute , we communicate time semantically(let’s convery meaning for other computers).  
+-Although We can use any human understandable format for the phrase of text that's between the time tags, the whole point of time element is HTML attribute which only uses a standardized machine-readable format to convey other computers exactly when this date or time is.  
+-Here are the machine readable phrases in the datetime attribute:
+> parameter|machine-readable format|example
+> -|-|-
+> Date|YYYY-MM-DD|![](https://user-images.githubusercontent.com/64577273/145017256-bd06a6fe-ddf0-4ddc-9d15-3c294f6bb83b.jpg)
+> Times|24hour clock format:<br>hh-mm|![](https://user-images.githubusercontent.com/64577273/145017258-b23f20e4-108a-4ff0-9f68-57c1f00bed54.jpg)
+> "|include seconds & fractions of a second or not:<br>hh-mm-ss.ddd|![](https://user-images.githubusercontent.com/64577273/145017260-f304871f-03a3-453a-a53c-778da0ec08a6.jpg)
+> "|include time zone from greenwich time:<br>hh-mm-ss.ddd+-hh:mm|![](https://user-images.githubusercontent.com/64577273/145017265-2d1a6784-c33f-46e6-9e3f-facd2e80c910.jpg)
+> Date and Times together|between the date and time either put T or a space|![](https://user-images.githubusercontent.com/64577273/145017268-85bdc83d-aad4-475c-a05e-4978ab58ec06.jpg)
+
+> -Other different format of machine-readable date time in HTML and many other programming languages:  https://lnkd.in/g7eqZhE
+
+Messy-untidy
+
+span-the period of time that something exists or happens
 
 
 
