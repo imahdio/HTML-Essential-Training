@@ -1,8 +1,8 @@
 ## The syntax of HTML elements
 > -HTML tags or HTML markups starting out with a less-than symbol, followed by the correct letter, or word, or abbreviated word, and finishing with a greater-than symbol.  
--to markup a paragraph properly, we use an opening tag at the beginning of the paragraph , and then a closing tag at the end. These opening and closing tags travel the world together, in pairs.
+-to markup a paragraph properly, we use an opening tag at the beginning of the paragraph , and then a closing tag at the end. These opening and closing tags travel the world together, in pairs.  
 ![](https://user-images.githubusercontent.com/64577273/144942422-e53ca8bf-d64c-468d-8583-30d2a3da5d1b.jpg)  
--The whole thing is called an element.
+-The whole thing is called an element.  
 ![](https://user-images.githubusercontent.com/64577273/144942427-1cb11ee5-02ff-4001-95c8-32a1c0e1d94f.jpg)  
 -*based on my research and [this link](https://teamtreehouse.com/community/i-do-not-understand-the-difference-between-a-child-and-a-sibling)*  A child relationship is when one element (the child) is inside another element (the parent). A sibling relationship is between two elements that are both inside the same parent element.  
 -Although not every element has a closing tag , But a lot of the HTML elements do have both an opening and a closing tag. Like the following:
@@ -45,10 +45,10 @@ Blob-based on my assumptions one long string of text
 > -Web Pages often have a lot of titles, headlines and subheadlines.  
 -in long passage of text , headlines break up the page content to make it easier for people to understand the structure of what's on the page.  
 -On Landing pages, those headlines are the content. Titles of things people can click and go on to read more.  
--There are six HTML elements for marking up headlines including h1,h2,h3,h4,h5 & h6.
+-There are six HTML elements for marking up headlines including h1,h2,h3,h4,h5 & h6.  
 ![](https://user-images.githubusercontent.com/64577273/144942428-acc57699-9300-4901-a963-4be0a306a6a8.jpg)  
 -each headline has different visual effects (ranging from H1 which is biggest to smallest H6) as well as non-visual effects for browsers to understand and communicate about the page.  
--h1 is the main title and h2 is the subtitle for this content.
+-h1 is the main title and h2 is the subtitle for this content.  
 ![](https://user-images.githubusercontent.com/64577273/144942430-1580e25c-e857-40a5-897b-6120821c1c95.jpg)  
 -Html with css can look more modern.  
 -NYTIMES uses 3 levels of headlines to markup this section's landing pages.  
