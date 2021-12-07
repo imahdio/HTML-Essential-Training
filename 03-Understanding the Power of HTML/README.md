@@ -41,7 +41,7 @@ furtively- secretively
 -contenteditable is a global attribute that lets a visitor to a page edit the content of that page. Notice that it doesn’t change the content in the HTML and if you refresh the webpage , it goes back to the original. [Code link](https://codepen.io/jensimmons/pen/KKPRZLJ?editors=1000)  
 -lang is a global attribute that tells the browser what language the content is in.  
 -dir is a global attribute that gives us a way to explicitly tell the browser in which **direction** the text flows.  
-![](./.ghimages/01.jpg)
+![](https://user-images.githubusercontent.com/64577273/145069325-c8972710-d735-4a03-9956-cbba75a4eace.jpg)
 
 You can use an ID for targeting CSS, but it's much more specific and that can be a problem- that's mean class is best for css more than id
 
@@ -60,10 +60,10 @@ compromise-an agreement in an argument in which the people involved reduce their
 -HTML doesn't mind capitalizing elements with uppercase letters or keeping them in lower case.  
 -Because in ancient times scientists were obsessed with counting every single bit and bite due to very low capacity of RAM & HDD , the length of `<i>` and `<p>` elements are very short while newer elements use whole words like `<video>` or `<article>` that’s why “the length of an element, it's a bit of a clue as to how long an element has been around.”  
 -kinds of elements with different requirements to use opening & closing tags
-> Elements with both opening and closing tags|![](./.ghimages/02.jpg)
+> Elements with both opening and closing tags|![](https://user-images.githubusercontent.com/64577273/145069334-a1c11e46-aab1-4000-a3f0-01cf39437859.jpg)
 > -|-
-> Elements that don't have anything between opening and closing tags by default|![](./.ghimages/03.jpg)
-> Some older elements not have closing tag|![](./.ghimages/04.jpg)
+> Elements that don't have anything between opening and closing tags by default|![](https://user-images.githubusercontent.com/64577273/145069337-bb709db3-4798-446b-861c-6718292f06dd.jpg)
+> Some older elements not have closing tag|![](https://user-images.githubusercontent.com/64577273/145069341-acc492fa-fdf1-4567-9d40-4d383090ad97.jpg)
 
 ancient-of or from a very long time ago
 
@@ -129,7 +129,7 @@ wrap-to cover or surround something with any materials
 >  there would be panic.
 ></p>
 >```
->![](./.ghimages/05.jpg)  
+>![](https://user-images.githubusercontent.com/64577273/145069343-dfa4f585-55b8-4fcf-81a2-6baad55b273c.jpg)  
 Notice:  The `<!--` introduces a comment that is not interpreted. The `-->` closes that comment.  
 -use `Hocus&nbsp;Pocus` guarantee that the words "Hocus Pocus" are not split by a line break after "Hocus". In other words , The non-breaking space character entity (`&nbsp;`) ensures that "Hocus Pocus" will always display on the same line.  
 -we might use developer tools in following conditions
