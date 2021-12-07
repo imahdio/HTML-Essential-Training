@@ -185,6 +185,45 @@ Typography- the style and appearance of printed matter
 Messy-untidy
 
 span-the period of time that something exists or happens
+## Code, pre, and br
+> -`<code>` element stands out any code phrase from HTML context to look like code  
+![](https://user-images.githubusercontent.com/64577273/145020699-41c11361-3e96-4cf4-9c94-52537de9a09f.jpg)  
+-we can use the following html entities to show on the page instead of being executed.  
+> Greater than| > |`&gt;`
+> -|-|-
+> Less than| < | `&lt;`
+
+> -`<br>`is simple single HTML tag which adds line break and browser respect it
+> ![](https://user-images.githubusercontent.com/64577273/145020704-79e15123-68cd-4ebb-9964-2e59648bf755.jpg)  
+> -`<pre>` make the browser pay attention to any indentation and line breaks in html context.
+> ![](https://user-images.githubusercontent.com/64577273/145020707-9a47ac23-c8ec-4af1-9fa1-3d945aa1b8e2.jpg)
+> -`<pre>` and `<code>` are frequently combined to show a block of code with indentation. In the following example , the whole code is wrapped in `<code>` element to convey meaning of code for browser and other computers and all of that is wrapped in `<pre>` element which maintains the semantic formatting and spacing.
+https://codepen.io/jensimmons/pen/gOYvjpa  
+> ![](https://user-images.githubusercontent.com/64577273/145020718-e04cf912-2f97-4232-a20b-1eacec79ca59.jpg)
+
+Stand out-to be easily seen or noticed
+
+monospaced font- It’s a font whose letters and characters each occupy the same amount of horizontal space.
+
+character entity- It’s a code used to represent a character that doesn't belong to the document's character set.
+
+HTML entity- It’s a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; )
+
+entity-a thing with distinct and independent existence
+
+Mash up-mix or combine two or more different elements
+
+piles of (something)- a lot of something
+
+
+  
+
+
+
+
+
+
+
 
 
 
