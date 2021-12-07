@@ -1,0 +1,147 @@
+## Debugging HTML
+> -to inspect HTML in a browser developer tools either right-click on a web page and go to inspect element, or instead we can go to tools> web developer> inspector , examples: [link1:full source](https://codepen.io/jensimmons/pen/xxKjYRR?editors=1100) / [link2:debugged mode](https://cdpn.io/jensimmons/debug/xxKjYRR)  
+-inspector part of developer tools acts like cockpit of controles.  
+-Browser read the html page and revise any mistakes that I might have had and create the Document Object Model or DOM version.  
+-we can use developer tools to inspect any website on the internet to get ideas when we’re not sure what markup to use on a similar project.  
+-HTML inspector can be used to debug mistakes after comparison with its DOM version. [Example link](https://codepen.io/jensimmons/pen/aboGBML?editors=1000)
+
+inspect-to look at something carefully in order to check its quality or condition
+
+cockpit-It’s the area, usually near the front of an aircraft or spacecraft, from which a pilot controls the aircraft.
+
+revise-to change an amount or value in order to make it more accurate
+
+peek-look quickly or furtively
+
+peek under the hood-To examine the internal workings of sth
+
+throw off something/someone-to cause an amount to be wrong or a person to be confused
+
+What's going on? -What has happened or is currently happening?
+
+sort something out- to understand or find (something, such as a reason or a solution) by thinking
+
+furtively- secretively
+
+## HTML attributes
+> -some HTML attributes only work on certain elements like datetime attributes which only use on time elements. Other attributes work on several elements but not all of them.  
+-global Attributes are attributes in HTML that will work on any element.  
+-class is a global attribute that allows us to target all elements of a html document with that class in our CSS or JavaScript.
+> ```html
+> <p class="intro">content</p>  //true
+> <p class="class1 class2">content</p>  //true
+> ```
+> -id is a global attribute that is similar to class but we’re only allowed to use one specific id in each HTML element. (*based on my own test and tries and study friend’s opinion* , I revised this hint due to wrong believes in main quotation)
+> ```html
+> <p class="class1 class2" id="id1">content</p>  //true
+> <p class="class1 class2" id="id1 id2">content</p>  //wrong , cannot use several id like class in one element
+> ```
+> -although we can use either class or id for targeting css but class is best for css more than id.  
+-ids are particularly helpful for addressing particular elements with JavaScript or, with a targeted link. That’s why It’s a good convention to use just one element with any particular ID name in an entire HTML page when interacting with javascript or links. For example [in this link](https://codepen.io/jensimmons/pen/WNeJErX?editors=1100) , there is a table of contents with links that jump to the elements that have the matching ID.  
+-contenteditable is a global attribute that lets a visitor to a page edit the content of that page. Notice that it doesn’t change the content in the HTML and if you refresh the webpage , it goes back to the original. [Code link](https://codepen.io/jensimmons/pen/KKPRZLJ?editors=1000)  
+-lang is a global attribute that tells the browser what language the content is in.  
+-dir is a global attribute that gives us a way to explicitly tell the browser in which **direction** the text flows.  
+![](./.ghimages/01.jpg)
+
+You can use an ID for targeting CSS, but it's much more specific and that can be a problem- that's mean class is best for css more than id
+
+Assistive devices -assistive equipment is designed for people who have physical difficulties and need help with using things like computers
+
+hook into sth- to connect to sth
+## ARIA roles
+> -Browser uses HTML to build DOM trees. And then takes the DOM tree to build the accessibility tree.  
+*...this summary is incomplete and may need to be completed at another time...*
+
+compromise-an agreement in an argument in which the people involved reduce their demands or change their opinion in order to agree
+## Formatting HTML
+> -HTML doesn’t care about spaces beyond the presence or single space except if we use a `<pre>` , `<code>` or  `<textarea>` or use CSS to change how the white space is handled. [Example link](https://codepen.io/jensimmons/pen/MWgGVqr?editors=1000)  
+-`<!-- custom comment -->` add comments to code for documentation and easier understanding. [Example link](https://codepen.io/jensimmons/pen/ExYLRmg?editors=1000)  
+-code editores gray out commented code or remarks. It prevents us from being confused about why something is not working.  
+-HTML doesn't mind capitalizing elements with uppercase letters or keeping them in lower case.  
+-Because in ancient times scientists were obsessed with counting every single bit and bite due to very low capacity of RAM & HDD , the length of `<i>` and `<p>` elements are very short while newer elements use whole words like `<video>` or `<article>` that’s why “the length of an element, it's a bit of a clue as to how long an element has been around.”  
+-kinds of elements with different requirements to use opening & closing tags
+> Elements with both opening and closing tags|![](./.ghimages/02.jpg)
+> -|-
+> Elements that don't have anything between opening and closing tags by default|![](./.ghimages/03.jpg)
+> Some older elements not have closing tag|![](./.ghimages/04.jpg)
+
+ancient-of or from a very long time ago
+
+carriage return- The `<br>` HTML element produces a line break in text
+
+evolve-develop gradually
+
+1980s-the decade from 1980 to 1989
+
+scientist- an expert who studies or works in one of the sciences
+
+obsess-If something or someone obsesses you, or if you obsess about something or someone, you think about it, him, or her all the time
+
+clue-a sign or some information that helps you to find the answer to a problem, question, or mystery
+
+out there-in a place that could be anywhere except here
+## Weird characters
+> -Html entities are formatted like this. Ampersand, some kind of short code, and a semicolon. We type them into an html file and they get converted into the characters that we want.  
+-Html entities are helpful for  
+>1. write any html elements like the < or > or ampersand(&) as text phrase and prevent browser to treat with it like html codes
+
+> Html entity | character
+> -|-
+>`&lt;` | `<`
+>`&gt;` | `>`
+>`&amp;` | `&`
+
+> Notice: if we directly write a < or > or ampersand(&) symbols with spaces around it , it will show up as content.  
+Notice: we can add `&nbsp;` to any characters to appear as simple text instead of being parsed as code.  
+Notice: If you are writing html elements inside a content management system like WordPress or using a tool like markdown, there's a chance that the layer between your text editor and the pure html will handle these characters for you just fine.  
+Notice:
+
+>2. Type special characters that not existing on keyboard
+
+> Html entity|character
+> -|-
+> `&copy;`|`© (Copyright symbol)`
+> `&trade;`|`™ (Trademark symbol)`
+> `&star;`|`☆`
+
+>Notice: we can copy special characters instead of typing entities.  
+Notice: W3C keeps a reference chart of all the character entities.
+
+>3. Non breaking space (`&nbsp;`) prevents browsers from breaking line on that space. [Example code](https://codepen.io/jensimmons/pen/VwZxGmL?editors=1000)  
+Although browsers ignore everything beyond the first regular space, the non-breaking space can also force the browser to put more than one space between words. [Example code](https://codepen.io/jensimmons/pen/zYOmOPX?editors=1000)
+
+show up-be conspicuous or clearly visible
+
+Markdown tools-It’s simple and user-friendly text-to-HTML conversion tools for web content writers. Developers and content creators can use them to format lists, headers, and many other content features.
+
+wrap-to cover or surround something with any materials
+## Chapter Quiz
+> -user can gain access to the debugging features of a browser by accessing developer tools  
+-The dir attribute is global. It stands for “direction” and can be used on any element to specify the direction of inline flow for that content.  
+-The datetime attribute is only used on the time element, as a way to create a machine-readable date.  
+-ARIA is used to clarify to the accessibility tree what is happening with a particular element, set of elements, or interface. If something is broken, ARIA can be a way to fix it.  
+-Those efforts involving accessibility issues require the use and understanding of ARIA attributes.  
+-the output from the following code appear like
+>```html
+><h1> This is a test. </h1>
+><p> If this were an actual emergency, 
+><!--  Should there be an actual emergency? -->
+>  there would be panic.
+></p>
+>```
+>![](./.ghimages/05.jpg)  
+Notice:  The `<!--` introduces a comment that is not interpreted. The `-->` closes that comment.  
+-use `Hocus&nbsp;Pocus` guarantee that the words "Hocus Pocus" are not split by a line break after "Hocus". In other words , The non-breaking space character entity (`&nbsp;`) ensures that "Hocus Pocus" will always display on the same line.  
+-we might use developer tools in following conditions
+>1. Something seems wacky and you aren't sure what is causing it.
+>2. when you need to figure out how to apply CSS or JavaScript to a certain part of the markup.
+>3. when you want to see the DOM the browser has created from your HTML.
+
+>-this code `< test >` produce this output `<test>`, Although there are other ways to produce the same output.
+-we can add `&nbsp;` to any characters to appear as simple text instead of being parsed as code.
+-the characters < and > are hard to present in HTML, as the code thinks they are the beginning of a tag. So instead we use the character entity `&lt;` for < and the character entity `&gt;` for >
+-An id attribute refers to one specific part of a document.
+
+wacky-weird or nutty or silly
+
+

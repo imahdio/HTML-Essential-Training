@@ -214,16 +214,61 @@ entity-a thing with distinct and independent existence
 Mash up-mix or combine two or more different elements
 
 piles of (something)- a lot of something
+## Superscripts, subscripts, and small text
+> -`<sub>` subscripts are characters below the text baseline.  
+-`<sup>` superscripts are characters above the text baseline like five squared.  
+-MathML is a markup language for math and it’s more powerful than what HTML can do.  
+-`<small>` element conveys meaning that marked text has very little prominence like fine print at the bottom of a page regarding ownership of the content (opposite of `<strong>` that conveys meaning of high importance)
+![](./.ghimages/smallElement01.jpg)
+bit-a small piece or amount of something
 
+toss-to throw something carelessly
 
-  
+prominence- the state of being important, famous, or noticeable
 
+fine print- text in a formal agreement that is printed smaller than the rest of the text, sometimes in the hope that it will not be noticed
+find (oneself) with (something)-to reach some conclusion, state, or situation, often unexpectedly or unintentionally.
 
+go away- to leave a place or person
+## Chapter Quiz
+> -to calculate the number of elements in a HTML code ,  Count the number of "/". There is an opening and closing tag, and together they make one pair.   
+-following code produce this ![](./.ghimages/equation01.jpg)  
+>```html
+> 2<sup><small><small> 5</small></small></sup><sub>8</sub>
+>```
+> Repetition of the small tag is required to get the size reduction observed.  
+-in following code ,  Tags need to nest smoothly. The emphasis is inside the paragraph, so the `<em>` tags are inside the `<p>` tags.
+>```html
+> <p>Here's some text that <em>should</em> be emphasized.</p> 
+>```
+>-`<sub>` is for subscripts, like numbers in chemical formulas, and `<sup>` is for superscripts, like footnote markers.  
+> -following code produces the output show in this image  
+> ![](/.ghimages/example01.jpg)  
+>```html
+> <p> This is a </p> demonstration <p> of the paragraph <p> tag </p> </p>.
+> ```
+> -Content works best when markup follows meaning , therefore We should use the level of headline (h1, h2, h3, h4, h5, h6) that makes sense, based on the semantic meaning of content.  
+-Even when you're presenting a date, you should use the `<time>` element, with the datetime attribute specifying the formal date.  
+>```html
+> <time datetime="2025-10-08">October 8, 2025</time> 
+>```
+> -`<pre>` preserves the spaces, tabs, and line breaks within a piece of text so a poem or piece of code can be presented faithfully. It preserves formatting.  
+-Elements should have an opening and closing tag, unless they're empty elements, which don't need the closing tag.  
+-The break tag `<br>` can occur all by itself which means It does not require a closing tag.  
+-it’s important to remember to use closing tags so it is clear where elements end.  
+-`<pre>` and `<code>` are used to mark-up code on screen.  
+-`<blockquote>` is a block-level element, while the `<q>` element is inline, nested inside another block-level element.  
+-If you want to highlight a short quote, `<q>` is great to use inside of a paragraph or other block-level element. `<blockquote>` is for when you want something bigger, to really stand out.  
+-The "datetime" is an attribute of the following element.  
+>```html
+> <time datetime="2024-03-07"> March, 7, 2024</time>
+>```
+> -HTML offers three kinds of list markup: `<ol>` for ordered lists, `<ul>` for unordered lists, and `<dl>` for definition lists.  
+-While lists are normally used to present content, their structured and nestable semantics also make them good for navigation menus.  
+-Besides visual appearance,  The hierarchy created by headlines can be used for other purposes.  
+-`<strong>` convey importance, seriousness, or urgency.  
+-`<em>` and `<strong>` are used to convey a sense of importance or stress when spoken.
 
+faithfully- carefully; exactly
 
-
-
-
-
-
-
+empty tag or empty element- elements with no closing tag are known as an empty tag like `<br>`
