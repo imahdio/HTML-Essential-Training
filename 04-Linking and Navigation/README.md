@@ -53,7 +53,7 @@ The first version creates a URL that's relative to the root level. The second ve
 -The dot dot slash in the second version of the above relative URL means go up a level. This whole path means go from where we are now, up one level, find the folder named images, and then look inside there for the file logo.gif  
 -The URL http://www.awesomedogs.com/people , points to the people folder.  
 -Anytime the browser is told to go to a URL that is a folder, it automatically looks for an index.html file and loads it. This trick only works for HTML files and makes our URLs pretty or clean. Instead of creating a file named people.html , we can create a folder called people, and inside that folder we put a file named index.html  
--URLs don't matter whether you include the trailing slash or not which means these three URLs go to exactly the same place.    
+-URLs don't matter whether you include the trailing slash or not which means these three URLs go to exactly the same place.  
 ![](https://user-images.githubusercontent.com/64577273/145082994-27eaf198-59d2-42e5-b50e-aff13cc71bc5.jpg)  
 -Using relative URLs can be super helpful on a project that moves from server to server while it's being worked on.
 
