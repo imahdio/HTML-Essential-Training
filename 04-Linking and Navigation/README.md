@@ -1,3 +1,4 @@
+# 04-Linking and Navigation
 ## Links
 > -to make a link we use the A element which stands for anchor element. On the opening tag we need the href attribute which stands for hypertext attribute and point to where we want the link to go. Between the opening and closing A tags, put whatever you want to be clickable.
 >```html
@@ -74,14 +75,14 @@ type out- the act of typing
 craft-to make objects, especially in a skilled way
 ## Navigation
 > -the nav element is for marking up navigation. It tells the browser which sets of links are part of the site navigation. We don't use it all the time, just for major blocks of navigational links.  
--to convey the purpose of the main menu for screen readers and other assistive devices , we can add roll="navigation" to the nav element. It’s an ARIA roll that conveys extra kind of importance for marking the main navigation of the page. It adds the extra kind of importance that's conveyed to other people visually through graphic design.  
+-to convey the purpose of the main menu for *screen readers and other assistive devices* , we can add `roll="navigation"` to the nav element. It’s an ARIA roll that conveys extra kind of importance for marking the main navigation of the page. It adds the extra kind of importance that's conveyed to other people visually through graphic design.  
 -aria-label="true" provides a label that can be read aloud by the screen reader.  
 -this [Example code](https://codepen.io/jensimmons/pen/rNBvqKL?editors=1000) make main menu using unordered list and CSS as first example for using set of links  
 ![](https://user-images.githubusercontent.com/64577273/145083000-bf70f17e-6bb5-4c8b-8162-063028ddaf67.jpg)  
 -this [Example code](https://codepen.io/jensimmons/pen/dybKOxm?editors=1000) makes breadcrumb trail navigation menu using ordered list and CSS as second example for using set of links.  
 ![](https://user-images.githubusercontent.com/64577273/145083002-60df0ac3-79da-4650-b0a3-b876ef0614bb.jpg)  
 -*based on my assumption* , there must be such the following table
-*I reached some unresolved conflicts if the following table is true!*  
+*I reached some unresolved conflicts if the following table is true!!*  
 ![](https://user-images.githubusercontent.com/64577273/145083004-c2e9022f-c081-49c9-b65f-4658ab3039b3.jpg)  
 -this [Example code](https://codepen.io/jensimmons/pen/vYBrgYz?editors=1000) makes footer using footer element and CSS while It’s not really part of a navigation as third example for using set of links  
 ![](https://user-images.githubusercontent.com/64577273/145083009-ad428b43-988d-4669-8cef-d9b24afc426e.jpg)
@@ -92,7 +93,7 @@ breadcrumb trail- this navigation path allows users to keep track and maintain a
 
 The only for sure is that it depends- it depends on users to choose a way
 ## Chapter Quiz
-> -CSS can change the way that a list and other objects are presented.
+> -CSS can change the way that a list and other objects are presented.  
 -There’s no single correct way to mark up navigation, but often developers use  `<nav>`, `<ul>`, `<li>`, `<a>`  
 -`<a href="https://example.com">text to click</a>` is the format for a link.  
 -when a website might be moved from a staging server to a production server we need to use a relative URL instead of an absolute URL.  

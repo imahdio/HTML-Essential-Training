@@ -1,3 +1,4 @@
+# 05-Images and Graphics
 ## Images
 > -there are four attributes to include on every image element. 1-The source attribute, shortened to SRC. 2-The alt attribute, ALT. And 3-the width and 4-height attributes.
 >```html
