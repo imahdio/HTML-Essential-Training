@@ -1,3 +1,4 @@
+# 03-Understanding the power of HTML
 ## Debugging HTML
 > -to inspect HTML in a browser developer tools either right-click on a web page and go to inspect element, or instead we can go to tools> web developer> inspector , examples: [link1:full source](https://codepen.io/jensimmons/pen/xxKjYRR?editors=1100) / [link2:debugged mode](https://cdpn.io/jensimmons/debug/xxKjYRR)  
 -inspector part of developer tools acts like cockpit of controles.  

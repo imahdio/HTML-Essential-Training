@@ -1,3 +1,4 @@
+# 00-Introduction
 ## What is HTML?
 > -HTML is a solid foundation on which everything else is built.  
 -HTML is the way to mark up our content and to bridge the divide between the human language and the computer language.

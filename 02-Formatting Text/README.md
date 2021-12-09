@@ -1,3 +1,4 @@
+# 02-Formatting Text
 ## The syntax of HTML elements
 > -HTML tags or HTML markups starting out with a less-than symbol, followed by the correct letter, or word, or abbreviated word, and finishing with a greater-than symbol.  
 -to markup a paragraph properly, we use an opening tag at the beginning of the paragraph , and then a closing tag at the end. These opening and closing tags travel the world together, in pairs.  
