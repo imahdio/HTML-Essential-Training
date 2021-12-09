@@ -138,9 +138,9 @@ Notice:  The `<!--` introduces a comment that is not interpreted. The `-->` clos
 >2. when you need to figure out how to apply CSS or JavaScript to a certain part of the markup.
 >3. when you want to see the DOM the browser has created from your HTML.
 
->-this code `< test >` produce this output `<test>`, Although there are other ways to produce the same output.
--we can add `&nbsp;` to any characters to appear as simple text instead of being parsed as code.
--the characters < and > are hard to present in HTML, as the code thinks they are the beginning of a tag. So instead we use the character entity `&lt;` for < and the character entity `&gt;` for >
+>-this code `< test >` produce this output `<test>`, Although there are other ways to produce the same output.  
+-we can add `&nbsp;` to any characters to appear as simple text instead of being parsed as code.  
+-the characters < and > are hard to present in HTML, as the code thinks they are the beginning of a tag. So instead we use the character entity `&lt;` for < and the character entity `&gt;` for >  
 -An id attribute refers to one specific part of a document.
 
 wacky-weird or nutty or silly
