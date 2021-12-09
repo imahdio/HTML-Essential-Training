@@ -40,7 +40,7 @@ pane-A rectangular area within an on-screen window that contains information for
 
 Mess around-behave in a silly or playful way
 
-Blob-based on my assumptions one long string of text
+Blob-*based on my assumptions* one long string of text
 ## Headlines
 > -Web Pages often have a lot of titles, headlines and subheadlines.  
 -in long passage of text , headlines break up the page content to make it easier for people to understand the structure of what's on the page.  
@@ -138,7 +138,7 @@ lay out something -to arrange in a pattern or design; to plan something by showi
 
 Incredibly- extremely
 ## Quotes
-> -`<cite>` and `<blockquote>` are being used for their HTML semantic value. They convey meaning to other computers and convenient places to use target styling through CSS.
+> -`<cite>` and `<blockquote>` are being used for their HTML semantic value. They convey meaning to other computers and convenient places to use target styling through CSS.  
 -in following snippet , we use `<cite>` element to credit jeremy as the person who said the quote and wrap the whole thing in a `<blockquote>` element to distinguish it from surrounding text.  
 ![](https://user-images.githubusercontent.com/64577273/145017243-3076e0f4-2062-48ba-8d22-9e6e9b933c2d.jpg)  
 -*based on chapter Quiz lesson* The `<cite>` element identifies sources.  
