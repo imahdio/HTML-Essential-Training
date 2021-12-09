@@ -144,7 +144,7 @@ Incredibly- extremely
 -*based on chapter Quiz lesson* The `<cite>` element identifies sources.  
 -we can put any element inside the blockquote like list or headline while nested inside each other.  
 -`<q>` stands for quote and lets the browser provide the quote marks for us instead of typing the quotes manually.   Its typography shape depends on the language and types of conventions of a particular region can be straight quote marks or curly quote marks.  
--inline elements wrap around phrases of content that are inline with some other contents like `<q>` , `<strong>` , `<b>` , `<i>` and `<em>` and etc. all other elements are block-level elements like `<blockquote>` , `<p>` , `<ul>`.   They are blocks that can be followed by another block.
+-inline elements wrap around phrases of content that are inline with some other contents like `<q>` , `<strong>` , `<b>` , `<i>` and `<em>` and etc. all other elements are block-level elements like `<blockquote>` , `<p>` , `<ul>`.   They are blocks that can be followed by another block.  
 ![](https://user-images.githubusercontent.com/64577273/145017249-84c5c983-8723-4392-bd5b-b38ac95b45c5.jpg)  
 -when you use CSS you can switch the layout behavior from block to inline or from inline to block.  
 -*CONFLICT! Based on my tests and tries* , we can use `<ul>` blockquote element nested `<p>` blockquote element which is against the definition of blockquote elements.
@@ -161,7 +161,7 @@ cite-refer to (a passage, book, or author) as evidence for or justification of a
 
 stand out- to be very noticeable
 
-Curly quote and straight quotes-check these examples
+Curly quote and straight quotes-check [these examples](https://www.computerhope.com/jargon/c/curlyquote.htm)
 
 intuit-to know or understand something because of a feeling that you have rather than because of facts or what someone has told you.
 
@@ -218,8 +218,9 @@ piles of (something)- a lot of something
 > -`<sub>` subscripts are characters below the text baseline.  
 -`<sup>` superscripts are characters above the text baseline like five squared.  
 -MathML is a markup language for math and it’s more powerful than what HTML can do.  
--`<small>` element conveys meaning that marked text has very little prominence like fine print at the bottom of a page regarding ownership of the content (opposite of `<strong>` that conveys meaning of high importance)
-![](./.ghimages/smallElement01.jpg)
+-`<small>` element conveys meaning that marked text has very little prominence like fine print at the bottom of a page regarding ownership of the content (opposite of `<strong>` that conveys meaning of high importance)  
+![image](https://user-images.githubusercontent.com/64577273/145354976-27f834af-bc6d-4ea8-baac-5dc285de3e88.png)
+
 bit-a small piece or amount of something
 
 toss-to throw something carelessly
@@ -232,7 +233,7 @@ find (oneself) with (something)-to reach some conclusion, state, or situation, o
 go away- to leave a place or person
 ## Chapter Quiz
 > -to calculate the number of elements in a HTML code ,  Count the number of "/". There is an opening and closing tag, and together they make one pair.   
--following code produce this ![](./.ghimages/equation01.jpg)  
+-following code produce this ![image](https://user-images.githubusercontent.com/64577273/145355324-c27d71f9-3ef6-4eb5-9b9a-fc00898134c6.png)  
 >```html
 > 2<sup><small><small> 5</small></small></sup><sub>8</sub>
 >```
@@ -243,7 +244,7 @@ go away- to leave a place or person
 >```
 >-`<sub>` is for subscripts, like numbers in chemical formulas, and `<sup>` is for superscripts, like footnote markers.  
 > -following code produces the output show in this image  
-> ![](/.ghimages/example01.jpg)  
+> ![image](https://user-images.githubusercontent.com/64577273/145355603-b5e4677d-8205-4037-91ed-8e65dbe5e9d6.png)  
 >```html
 > <p> This is a </p> demonstration <p> of the paragraph <p> tag </p> </p>.
 > ```
