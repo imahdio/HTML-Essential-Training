@@ -9,7 +9,7 @@
 -when leave the alt attribute blank , It'll be skipped over and nothing will be spoken aloud.  If we leave off the alt attribute instead, the image file name will get read aloud.  
 -width and height attribute let the browser know how big the image is in pixels.  
 -the order of attributes in an HTML element never matters, we can put them in whatever order we want.  
--if leave off the height and with attribute , browser has to get the size information after the image has fully downloaded. This in turn causes jumping around texts as images load.  
+-if leave off the height and width attributes , browser has to get the size information out of the file after the image has fully downloaded. This in turn causes jumping around texts as images load and moving everything as we're trying to read.  
 -*based on my test and tries* , when working with `<img>` element , following conditions can be occured  
 >condition|result
 >-|-
@@ -17,9 +17,11 @@
 >Keep both height and width attributes blank|Image is loaded in its original actual size
 >one of size attributes are filled|image size will be changed proportionally
 >Both size attributes are filled|image is loaded in its predefined layout
+happen to be-is
+
 substitute-to use something or someone instead of another thing or person
 
-shiny-A shiny surface is bright because it reflects light.
+shiny-bright because it reflects light.
 
 pensive-thinking in a quiet way, often with a serious expression on your face
 
@@ -27,7 +29,7 @@ overly-too; very
 
 wordy-containing too many words
 
-poetic-of or suggesting poets or poems
+poetic-relating to poets or poems
 
 day care-care provided during the day for young children, esp. in order to allow their parents to work.
 
@@ -60,6 +62,8 @@ leave off-fail to include someone or something on a list
 > - newer format for the web than GIFs or JPGs
 > - sometimes does a better job than a GIF or JPG at compressing the kind of images that the GIF or JPG format likes, but not always.
 
+in quest of-try to find or obtain it
+
 quest-a long search for something that is difficult to find
 
 photograph-to take a picture using a camera
@@ -70,11 +74,12 @@ tend-to be likely to happen or to have a particular characteristic or effect
 
 jagged-rough and with sharp points
 
+either way-whichever of two given alternatives is the case
+
 keep an eye out for something-to watch carefully for something
 
-Shrink-become or make smaller in size or amount
+## Responsive images
 
-Way down-
 
 
 

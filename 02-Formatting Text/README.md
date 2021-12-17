@@ -12,17 +12,21 @@
 > <h1>This is a headline.</h1>
 > <article>This is an article.</article>
 > ```
-> -The HTML markup provides computers a way to understand more about what the content, or the interface, means to humans.
--an entire HTML document is a whole bunch of HTML elements all nested inside of each other.  
+> -The HTML markup provides computers a way to understand more about what the content, or the interface, means to humans.  
+-an entire HTML document is a whole bunch of HTML elements all nested inside of each other which make [document tree](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html).  
 -The browser pays attention to the structure of how HTML elements are nested and builds a Document Object Model (DOM) tree from the data structure.  
--DOM is the hierarchy and structure of HTML elements , often used for targeting elements in CSS and JavaScript.  
+-DOM is the hierarchy and structure of HTML elements , often used for targeting elements in CSS and JavaScript. [Check HERE for example](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html)  
 -The browser uses the DOM tree to create an accessibility tree which affects the experience of users on your website, especially ones with various disabilities.
 
 tricky-If you describe a task or problem as tricky, you mean that it is difficult to do or deal with.
 
+flavor-the particular way a substance, esp. food or drink, is recognized from its taste and smell
 
 nest-to fit one object inside another
 
+dozen-a group of twelve things
+
+dozens-a large but not exact number
 
 convey-to express a thought, feeling, or idea so that it is understood by other people
 
@@ -72,9 +76,13 @@ intentional-planned or intended
 
 strict-strongly limiting someone's freedom to behave as they wish
 
+semantic-relating to meaning in language or logic.
+
 HTML Semantic Elements-A semantic element clearly describes its meaning to both the browser & the developer. [More example](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 Kicker-this headline placed on top of the main headline and its purpose is to supplement the main headline which can be used as 1-classic kicker or 2-descriptive kicker
+
+use cases-It outlines the success and failure scenarios that can occur when the actor(s) interact with the system.
 
 pay off-yield good results; succeed
 ## Bold and italics
@@ -106,6 +114,8 @@ Thin-not thick
 
 condense-to reduce something, such as a speech or piece of writing, in length
 
+otherwise-in circumstances different from those present or considered
+
 resort- action
 
 throwaway-something disposable or used for a short period of time
@@ -113,15 +123,18 @@ throwaway-something disposable or used for a short period of time
 > -There are three kinds of lists in HTML. Unordered lists, ordered lists, and definition lists.  
 -Each list item needs to be wrapped in an `<li>` element which stands for list item.  
 -to go along with any 3 kinds of lists , we need to wrap the entire group of items in an element that will mark the beginning and end of the whole list.  
--HTML or browser doesn't care about any additional indentation in front of list items.
+-HTML or browser doesn't care about any additional indentation in front of list items. it means , This indenting does not have any effect on what shows up on the web page.
 > Unordered list `<ul>`|Ordered lists `<ol>`|Definition list `<dl>`
 > -|-|-
 > ![](https://user-images.githubusercontent.com/64577273/145017232-83998ced-59a5-4b96-a23b-67fa639f737a.jpg)|![](https://user-images.githubusercontent.com/64577273/145017239-216db8e1-2086-4bc5-91b7-6d6736005c70.jpg)|![](https://user-images.githubusercontent.com/64577273/145017242-bbed4537-9243-4c4d-9a33-5759a4acd116.jpg)
 > We use `<ul>` to convey meaning and then use CSS to totally alter how it looks.|Like said before , CSS can be used to restyle lists to look very different from the default styling.|List of definition terms `<dt>` and definition descriptions `<dd>` of each term
 > We can leave the content in a list shaped layout or we can lay it out however we want.|We can leave the content in a list shaped layout or we can lay it out however we want.|
 > ![](https://user-images.githubusercontent.com/64577273/144982019-4dc43ead-b7b2-4cfc-ae5d-c2a7fb78ed40.jpg)|![](https://user-images.githubusercontent.com/64577273/144982027-ffe8927d-765d-4d5f-b404-488c15641f0b.jpg)|![](https://user-images.githubusercontent.com/64577273/144982036-acd91f81-b890-4293-a161-1c341f17a951.jpg)
+> [These first six examples are all unordered lists](https://codepen.io/jensimmons/pen/eYOyoJO?editors=1000)|rest 4 other examples of prior link are all ordered lists.|-
 
 > -HTML can mark the end and beginning of the whole list: unordered list , ordered lists and definition lists
+
+definition-description , a statement that explains the meaning of a word or phrase
 
 teaser-an article, advertisement, short film, etc. that gives a small amount of information about a subject, product, etc. in order to make people interested in seeing or hearing more about it later.
 
@@ -148,7 +161,8 @@ Incredibly- extremely
 -inline elements wrap around phrases of content that are inline with some other contents like `<q>` , `<strong>` , `<b>` , `<i>` and `<em>` and etc. all other elements are block-level elements like `<blockquote>` , `<p>` , `<ul>`.   They are blocks that can be followed by another block.  
 ![](https://user-images.githubusercontent.com/64577273/145017249-84c5c983-8723-4392-bd5b-b38ac95b45c5.jpg)  
 -when you use CSS you can switch the layout behavior from block to inline or from inline to block.  
--*CONFLICT! Based on my tests and tries* , we can use `<ul>` blockquote element nested `<p>` blockquote element which is against the definition of blockquote elements.
+-*CONFLICT! Based on my tests and tries* , we can use `<ul>` blockquote element nested `<p>` blockquote element which is against the definition of blockquote elements.  
+-Overally we can mark up quotes with `<blockquote>` , `<q>` and `<cite>` elements.
 
 passage-a short piece of writing or music that is part of a larger piece of work
 
@@ -160,43 +174,48 @@ cite-refer to (a passage, book, or author) as evidence for or justification of a
 
 `<blockquote>` Tag -specifies a section that is quoted from another source.
 
+convenient-suitable for your purposes and needs and causing the least difficulty
+
 stand out- to be very noticeable
 
 Curly quote and straight quotes-check [these examples](https://www.computerhope.com/jargon/c/curlyquote.htm)
 
 intuit-to know or understand something because of a feeling that you have rather than because of facts or what someone has told you.
 
-nerdy-
+nerdy-not important but funny
 
 Typography- the style and appearance of printed matter
 ## Dates and times
-> -With HTML time element and its datetime attribute , we communicate time semantically(let’s convery meaning for other computers).  
+> -With HTML time element and its **datetime attribute** , we communicate time semantically to convery meaning for other computers.  
 -Although We can use any human understandable format for the phrase of text that's between the time tags, the whole point of time element is HTML attribute which only uses a standardized machine-readable format to convey other computers exactly when this date or time is.  
 -Here are the machine readable phrases in the datetime attribute:
 > parameter|machine-readable format|example
 > -|-|-
 > Date|YYYY-MM-DD|![](https://user-images.githubusercontent.com/64577273/145017256-bd06a6fe-ddf0-4ddc-9d15-3c294f6bb83b.jpg)
-> Times|24hour clock format:<br>hh-mm|![](https://user-images.githubusercontent.com/64577273/145017258-b23f20e4-108a-4ff0-9f68-57c1f00bed54.jpg)
-> "|include seconds & fractions of a second or not:<br>hh-mm-ss.ddd|![](https://user-images.githubusercontent.com/64577273/145017260-f304871f-03a3-453a-a53c-778da0ec08a6.jpg)
-> "|include time zone from greenwich time:<br>hh-mm-ss.ddd+-hh:mm|![](https://user-images.githubusercontent.com/64577273/145017265-2d1a6784-c33f-46e6-9e3f-facd2e80c910.jpg)
+> Times|24hour clock format:<br>hh:mm|![](https://user-images.githubusercontent.com/64577273/145017258-b23f20e4-108a-4ff0-9f68-57c1f00bed54.jpg)
+> "|include seconds & fractions of a second or not:<br>hh:mm:ss.ddd|![](https://user-images.githubusercontent.com/64577273/145017260-f304871f-03a3-453a-a53c-778da0ec08a6.jpg)
+> "|include time zone from greenwich time:<br>hh:mm:ss.ddd+-hh:mm|![](https://user-images.githubusercontent.com/64577273/145017265-2d1a6784-c33f-46e6-9e3f-facd2e80c910.jpg)
 > Date and Times together|between the date and time either put T or a space|![](https://user-images.githubusercontent.com/64577273/145017268-85bdc83d-aad4-475c-a05e-4978ab58ec06.jpg)
 
 > -Other different format of machine-readable date time in HTML and many other programming languages:  https://lnkd.in/g7eqZhE
 
-Messy-untidy
+Messy-used to describe a situation that is confused and unpleasant.
 
 span-the period of time that something exists or happens
+
+look something up-to check a fact or get information about something.
 ## Code, pre, and br
 > -`<code>` element stands out any code phrase from HTML context to look like code  
 ![](https://user-images.githubusercontent.com/64577273/145020699-41c11361-3e96-4cf4-9c94-52537de9a09f.jpg)  
--we can use the following html entities to show on the page instead of being executed.  
+-HTML entities force browsers to only show [HTML synatx](https://www.arubanetworks.com/techdocs/ClearPass/CPGuest_UG_HTML_6.5/Content/Reference/BasicHTMLSyntax.htm) on the page instead of being executed. [Practical example](https://codepen.io/ma400/pen/KKXavwz)  
+>item|sign|HTML entity
+>-|:-:|:-:
 > Greater than| > |`&gt;`
-> -|-|-
 > Less than| < | `&lt;`
 
 > -`<br>`is simple single HTML tag which adds line break and browser respect it
 > ![](https://user-images.githubusercontent.com/64577273/145020704-79e15123-68cd-4ebb-9964-2e59648bf755.jpg)  
-> -`<pre>` make the browser pay attention to any indentation and line breaks in html context.
+> -`<pre>` make the browser pay attention to any indentation and line breaks in html context.  
 > ![](https://user-images.githubusercontent.com/64577273/145020707-9a47ac23-c8ec-4af1-9fa1-3d945aa1b8e2.jpg)  
 > -`<pre>` and `<code>` are frequently combined to show a block of code with indentation. In the following example , the whole code is wrapped in `<code>` element to convey meaning of code for browser and other computers and all of that is wrapped in `<pre>` element which maintains the semantic formatting and spacing.
 https://codepen.io/jensimmons/pen/gOYvjpa  
@@ -218,9 +237,10 @@ piles of (something)- a lot of something
 ## Superscripts, subscripts, and small text
 > -`<sub>` subscripts are characters below the text baseline.  
 -`<sup>` superscripts are characters above the text baseline like five squared.  
--MathML is a markup language for math and it’s more powerful than what HTML can do.  
+-MathML is a  specialized markup language for math and it’s more powerful than what HTML can do.  
 -`<small>` element conveys meaning that marked text has very little prominence like fine print at the bottom of a page regarding ownership of the content (opposite of `<strong>` that conveys meaning of high importance)  
-![image](https://user-images.githubusercontent.com/64577273/145354976-27f834af-bc6d-4ea8-baac-5dc285de3e88.png)
+![image](https://user-images.githubusercontent.com/64577273/145354976-27f834af-bc6d-4ea8-baac-5dc285de3e88.png)  
+-if we want to make certain passage of text smaller , we just use CSS to adjust the size of text to any custom size instead of using `<small>` element.
 
 bit-a small piece or amount of something
 
@@ -229,22 +249,23 @@ toss-to throw something carelessly
 prominence- the state of being important, famous, or noticeable
 
 fine print- text in a formal agreement that is printed smaller than the rest of the text, sometimes in the hope that it will not be noticed
+
 find (oneself) with (something)-to reach some conclusion, state, or situation, often unexpectedly or unintentionally.
 
 go away- to leave a place or person
 ## Chapter Quiz
-> -to calculate the number of elements in a HTML code ,  Count the number of "/". There is an opening and closing tag, and together they make one pair.   
+> -*in my point of view and opposite of the hint of first question* counting the number of "/" that are in an HTML code, does not necessarily tells us the amount of elements on the web page because of element without end tag like `<br>`  
 -following code produce this ![image](https://user-images.githubusercontent.com/64577273/145355324-c27d71f9-3ef6-4eb5-9b9a-fc00898134c6.png)  
 >```html
 > 2<sup><small><small> 5</small></small></sup><sub>8</sub>
 >```
-> Repetition of the small tag is required to get the size reduction observed.  
+> Although based the question hint , Repetition of the small tag is required to get the size reduction observed but *in point of my view and based instructor quotations* we need to use CSS to adjust the size of text instead of using `<small>` element.   
 -in following code ,  Tags need to nest smoothly. The emphasis is inside the paragraph, so the `<em>` tags are inside the `<p>` tags.
 >```html
 > <p>Here's some text that <em>should</em> be emphasized.</p> 
 >```
 >-`<sub>` is for subscripts, like numbers in chemical formulas, and `<sup>` is for superscripts, like footnote markers.  
-> -following code produces the output show in this image  
+> -following code produces the output shown in this image  
 > ![image](https://user-images.githubusercontent.com/64577273/145355603-b5e4677d-8205-4037-91ed-8e65dbe5e9d6.png)  
 >```html
 > <p> This is a </p> demonstration <p> of the paragraph <p> tag </p> </p>.
@@ -252,7 +273,7 @@ go away- to leave a place or person
 > -Content works best when markup follows meaning , therefore We should use the level of headline (h1, h2, h3, h4, h5, h6) that makes sense, based on the semantic meaning of content.  
 -Even when you're presenting a date, you should use the `<time>` element, with the datetime attribute specifying the formal date.  
 >```html
-> <time datetime="2025-10-08">October 8, 2025</time> 
+> <time datetime="2025-10-08">October 8, 2025</time>
 >```
 > -`<pre>` preserves the spaces, tabs, and line breaks within a piece of text so a poem or piece of code can be presented faithfully. It preserves formatting.  
 -Elements should have an opening and closing tag, unless they're empty elements, which don't need the closing tag.  
@@ -266,11 +287,21 @@ go away- to leave a place or person
 > <time datetime="2024-03-07"> March, 7, 2024</time>
 >```
 > -HTML offers three kinds of list markup: `<ol>` for ordered lists, `<ul>` for unordered lists, and `<dl>` for definition lists.  
--While lists are normally used to present content, their structured and nestable semantics also make them good for navigation menus.  
+-Lists can be used to mark up navigation. It means while lists are normally used to present content, their structured and nestable semantics also make them good for navigation menus.  
 -Besides visual appearance,  The hierarchy created by headlines can be used for other purposes.  
 -`<strong>` convey importance, seriousness, or urgency.  
 -`<em>` and `<strong>` are used to convey a sense of importance or stress when spoken.
 
+preserve-to keep something as it is
+
 faithfully- carefully; exactly
+
+hyphenation-the use of the symbol -, joining two words or two parts of a word
+
+markup-the symbols used in some types of computer documents that control the way text appears on a screen or page, or the process of adding these symbols.
+
+markdown-It's a lightweight markup language for creating formatted text using a plain-text editor.
+
+hierarchy-a system in which people or things are arranged according to their importance
 
 empty tag or empty element- elements with no closing tag are known as an empty tag like `<br>`
