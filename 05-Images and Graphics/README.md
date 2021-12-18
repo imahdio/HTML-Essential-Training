@@ -77,14 +77,46 @@ jagged-rough and with sharp points
 either way-whichever of two given alternatives is the case
 
 keep an eye out for something-to watch carefully for something
-
 ## Responsive images
+>-Although CSS can show image on big screens or shrink it way down on phones but the following issues occure.  
+>-|Pros|Cons
+>-|-|-
+>high resolution images|great for big screens with high network speed|1- takes a lot of times to download on a slow network connection<br>2-unneeded high resolution data for small and low pixel density screen
+>compressed images with low resolution|great for small screens with poor network speed|1-maybe web designs are limited to keeping every images phisically very small<br>2-low quality photo blown up really big on big screens
 
+>-More and more screen these days however, are not 1X screens. There are a bunch of retina and high DPI screens out there with a pixel density, is [2X, 3X, 4X](https://devhints.io/resolutions) where more data can be displayed by the screen.  
+-The simplest way to support these different screens is to create multiple copies of our image in different resolutions and then tell the browser that those copies are available. The browser will take look at the screen density, the network connection, the users settings and decide which image to use. [Example code snippet](https://codepen.io/jensimmons/pen/QWLxgMy?editors=1100)  
+-practically , put 1X version of the image at source attribute of `<img>` element. in case of using CSS to adjust image to screen size , the aspect ratio take effects instead of the pixel numbers in width and hieght. inside of `srcset` (source set) attribute we'll list the images with screen density, like 2X, 3X, 4X. the browser will swap out one version of this image for another based on what it thinks is best.
+>```html
+><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
+>     alt="shiny black dog looking pensive" 
+>     width="480" height="360"
+>     
+>     srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 2x, 
+>	   	  	https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 3x, 
+>		 	https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 4x"
+>>
+>```
 
+shrink down to size-*based on my study friend opinion*, scaling it down, making it smaller to fit the screen size
 
+shrink-become or make smaller in size or amount
 
+cut something down to size-Reduce the size or power of something
 
+glorious-very beautiful or excellent
 
+blow up-a photograph, document, or picture that has been made bigger
 
+coordinate with sb/sth-to work together with another person or organization in order to achieve something
 
+take something into account-consider something along with other factors before reaching a decision
+
+Retina Display-It's a term coined by Apple which means the pixel density on a screen is so high.
+
+coin-to invent a new word or expression, or to use one in a particular way for the first time.
+
+<a name="xfactor"></a> @1x, @2x, @3x- It's refering to [pixel density that makes actual resolution](https://devhints.io/resolutions) , not screen size. [More info about PPI calculation](https://www.calculatorsoup.com/calculators/technology/ppi-calculator.php)
+
+swap out-to exchange
 
