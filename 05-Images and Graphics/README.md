@@ -121,11 +121,11 @@ coin-to invent a new word or expression, or to use one in a particular way for t
 swap out-to exchange
 
 ## Resposive width
->-*based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my assumption based the instructor clues.*  
+>-*based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
 >-*it seems firefox fully compatible with this lesson experiments.*  
 >-`srcset` attribute gives you two options for communicating to the browser that there are a set of images available to use either by
 >1. the pixel density of the screen or
->2. the width of the viewport.
+>2. the width of the viewport
 
 >-There are 2 ways to let the browser choose an image from `srcset` attribute based maximum viewport width.  
 >-The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. Marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example , the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
@@ -139,7 +139,7 @@ swap out-to exchange
 >   width="480" height="360"
 >>
 >```
->-The `sizes` attribute gives us another way to modify already specified maximum width in `srcset` attribute to another breakpoints. check it either through [myown modified code snippet](https://codepen.io/ma400/pen/VwMbOXJ) or [The official code snippet of this lesson](https://codepen.io/jensimmons/pres/wvwXOYa).
+>-The `sizes` attribute gives us another way to modify already specified maximum width in `srcset` attribute to another breakpoints. check it either through [myown modified code snippet](https://codepen.io/ma400/pen/VwMbOXJ) or [The original code snippet of this lesson](https://codepen.io/jensimmons/pres/wvwXOYa).
 
 as breakpoint that image will take up.
 
@@ -147,9 +147,16 @@ list a set of images and specify maximum viewport's width that image will take u
 
 specify maximum and have the browser decide which file to download and display considering the pixel density of the screen.
 
-
 viewport-the area in browser windows being currently viewed for example on most mobile devices and when the browser is in fullscreen mode, the viewport is the entire screen.
 
 parse-is transforming one thing to another with equal meaning , in computer science, is where a string of commands – usually a program – is separated into more easily processed components before transform into machine language. [for more info,check there](https://www.techopedia.com/definition/3853/parse)
+## Responsive pictures
+>-*like the privious lesson and based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
+>-*it seems firefox fully compatible with this lesson experiments.*  
+-this is 3th way to let the browser choose an image from `srcset` attribute based maximum viewport width using `picture` and `source` elements , `media` (which handle the media queries) and `srcset` attributes. in this scenario , When the viewport is a minimum of 600 pixels wide or bigger, the landscape versions of this photo loads and When the viewport is smaller than 600 pixels, the cropped versions loads.  
+-check and compare all 3 ways to swap out between different images with various sizes based different browser viewport on [myown modified code snippet in here](https://codepen.io/ma400/pen/bGoRdQg?editors=1100).  
+-[here is the original code snippet](https://codepen.io/jensimmons/pen/wvwXLQa?editors=1100) of this lesson which only demonstrate the 3th method.
 
+swap out-to exchange
 
+fantastic-extremely good
