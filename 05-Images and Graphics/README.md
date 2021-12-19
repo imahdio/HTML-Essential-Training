@@ -121,14 +121,14 @@ coin-to invent a new word or expression, or to use one in a particular way for t
 swap out-to exchange
 
 ## Resposive width
->-*based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
->-*it seems firefox fully compatible with this lesson experiments.*  
+>-*based on my point of view , this lesson has many wrong concepts which incompatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
+>-*firefox makes interactive experiment of this lesson exercise*  
 >-`srcset` attribute gives you two options for communicating to the browser that there are a set of images available to use either by
 >1. the pixel density of the screen or
 >2. the width of the viewport
 
 >-There are 2 ways to let the browser choose an image from `srcset` attribute based maximum viewport width.  
->-The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. Marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example , the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
+>-The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. The marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example , the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
 >```html
 ><img class="half-width"
 >   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
@@ -152,7 +152,7 @@ viewport-the area in browser windows being currently viewed for example on most 
 parse-is transforming one thing to another with equal meaning , in computer science, is where a string of commands – usually a program – is separated into more easily processed components before transform into machine language. [for more info,check there](https://www.techopedia.com/definition/3853/parse)
 ## Responsive pictures
 >-*like the privious lesson and based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
->-*it seems firefox fully compatible with this lesson experiments.*  
+>-*firefox makes interactive experiment of this lesson exercise.*  
 -this is 3th way to let the browser choose an image from `srcset` attribute based maximum viewport width using `picture` and `source` elements , `media` (which handle the media queries) and `srcset` attributes. in this scenario , When the viewport is a minimum of 600 pixels wide or bigger, the landscape versions of this photo loads and When the viewport is smaller than 600 pixels, the cropped versions loads.  
 -check and compare all 3 ways to swap out between different images with various sizes based different browser viewport on [myown modified code snippet in here](https://codepen.io/ma400/pen/bGoRdQg?editors=1100).  
 -[here is the original code snippet](https://codepen.io/jensimmons/pen/wvwXLQa?editors=1100) of this lesson which only demonstrate the 3th method.
@@ -160,3 +160,58 @@ parse-is transforming one thing to another with equal meaning , in computer scie
 swap out-to exchange
 
 fantastic-extremely good
+## Figure and figcaption
+> -`<figure>` element mark up a photo in a document, and a `<figcaption>` element define a caption for the photo. it provides the browser with more semantic contents and let the AI search engines know that these 2 pieces of content have a relationship to each other.
+>```html
+><figure>
+><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/maggie2.png"
+>       width="960" height="720" alt="shiny black dog in the sun">
+><figcaption>Maggie the dog enjoys resting in a field, after a long day of chasing squirrels.</figcaption>
+></figure>
+>```
+
+dug-past and past participle of dig
+
+rather-more exactly
+
+figure-a picture or drawing, often numbered, in a book or document
+
+chase-the act of going after someone or something very quickly in order to catch him, her, or it
+
+squirrel-a small animal covered in fur with a long tail. Squirrels climb trees and feed on nuts and seeds.
+## Chapter Quiz
+>-SVG or Scalable Vector Graphics can scale to massive sizes without pixelation and still look neat, like they were built for it.
+>-The figure element includes or encapsulates the caption element and other graphical elements.
+>```html
+><figure>
+><img src="https://figuresource.com/40289/alfonso.jpg" 
+>  width="720" height="354" alt="The Gracious Host" >
+><figcaption> Alfonso serving pancakes </figcaption>
+></figure>
+>```
+>-in following code snippet , the largest image is sunsetC.jpg which loads the slowest.  
+>```html
+><img src="https://storage.net/40785/sunsetA.jpg" 
+>      alt="Beach at sunset" width = "512" height="128"
+>      srcset="https://storage.net/40785/sunsetB.jpg 1.5x,
+>              https://storage.net/40785/sunsetC.jpg 3x,
+>              https://storage.net/40785/sunsetD.jpg 2x"
+>>
+>```
+>-You can generate captions from CSS, but you would have to expand your stylesheet every time you added an image. The `<figure>` element keeps your caption with the image and connects them semantically.
+-The srcset attribute lets the browser choose from options that fit the specific situation, minimizing bandwidth consumption while producing attractive results.
+-Provide pixel measurements (w) instead of 1x, 2x, etc explicitly changes srcset's behavior from a resolution-based srcset to a width-based srcset.  
+-in every image element there are 4 attributes including src, alt, height, width. src is short for source, and links to the file. Alt provides an alternative text experience of the image. Height and width let the browser know how much space the image needs before the file is fetched, improving performance.
+-we spend effort optimizing image sources and corresponding display attributes to have the best compromise between image quality and download speed  
+-we include the height and width specifications for all images to make the page layout more efficient , therefore the size of an image can be learned before download is complete.  
+-SVG is best suited to handle complex drawings and logos.
+-
+
+compact-consisting of parts that are positioned together closely or in a tidy way, using very little space
+
+gracious-behaving in a pleasant, polite, calm way
+
+compromise-a situation in which the people or groups involved in an argument reduce their demands in order to reach an agreement.
+
+utilize-to use something in an effective way
+
