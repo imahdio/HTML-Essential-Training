@@ -205,7 +205,6 @@ squirrel-a small animal covered in fur with a long tail. Squirrels climb trees a
 -we spend effort optimizing image sources and corresponding display attributes to have the best compromise between image quality and download speed  
 -we include the height and width specifications for all images to make the page layout more efficient , therefore the size of an image can be learned before download is complete.  
 -SVG is best suited to handle complex drawings and logos.
--
 
 compact-consisting of parts that are positioned together closely or in a tidy way, using very little space
 
