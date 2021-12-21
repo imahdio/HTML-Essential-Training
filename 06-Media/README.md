@@ -86,3 +86,43 @@ server farm-another term for data centre
 
 transcode-convert (language or information) from one form of coded representation to another , the process of changing a media file (= a file that contains sound and video) from one format (= the way in which information is arranged and stored on a computer) to another
 
+## Captions and subtitles
+>-to make video more accessible to every one add captions with `<track>` element and point to a text file. The video player will provide all the functionality so a viewer can turn captioning on and off or switch from one set of subtitles to another.  
+-there are many file formats for captions. But on the web, we want to use webvtt, web video text tracks. It's basically a plain text file with a vtt extension and the time code information that tells the video player when to show each line.  
+-to get these captions to show up on our video we put a `<track>` element inside the `<video>` element. On the `<track>` element, we'll use the `src` attribute to point to the .vtt subtitle file. We'll use the `kind` attribute to tell the browser that this is captions or subtitles. We'll add a `label` of english that will show up in the player as a label for this choice. We'll use a `srclang` attribute to specify which language this is. And we'll put a `default` attribute on this track element to specify that this track is the one we want to use by default when a user turns on captions. [original code example](https://codepen.io/jensimmons/pres/KKPevBe?editors=1100)
+>```html
+><video controls>
+>  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+>    type="video/webm">
+>  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+>    type="video/mp4">
+> 
+>  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+>         kind="captions"
+>         label="English"
+>         srclang="en"
+>         default>
+>
+>   <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+>         kind="subtitles"
+>         label="Español"
+>         srclang="es">
+>  
+>  <p>This would be a video of a moonwalk, if your device supported playing this video.</p>
+></video>
+>```
+>NOTICE: The subtitles of above code snippet not be appeared on video player unless we add `crossorigin="*"` inside `<video>` tag. [check this issue for more info](https://github.com/imahdio/HTML-Essential-Training/issues/6)  
+>NOTICE: Based on this lesson and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) , there are several options for kind attribute includes:  
+>* `captions` provides a transcription of audio.
+>* `subtitles` provides translation of content.
+>* `descriptions` provides descriptive information about what's happening visually in the video. This gives people the option of playing a track that reads aloud descriptions.  
+>* `chapters` provides a text file that list the chapters in the video, giving users a way to jump from one section in the video to another.
+
+>NOTICE: [*based my test and tries and this article*](https://act-rules.github.io/rules/ac7dc6) most assistive devices and screen readers not support `kind="descriptions"` attribute.  
+
+accent-the way in which people in a particular area, country, or social group pronounce words
+
+deaf-unable to hear, either completely or partly
+
+bounce-to (cause to) move up or away after hitting a surface
+
