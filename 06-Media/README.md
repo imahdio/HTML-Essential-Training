@@ -126,3 +126,25 @@ deaf-unable to hear, either completely or partly
 
 bounce-to (cause to) move up or away after hitting a surface
 
+## Embedding other media through iframes 
+>-embedding is taking content from one site and placing it into the middle of a page on another site.  
+-you can embed a map from Google or Mapbox or a code demo from CodePen or Glitch or a slide deck from Speaker Deck or Notist. It's common to embed something complex from a service that takes care of all the hard parts for you.  
+-the iframe element has several attributes on it, including height and width.  Src is going to point to the source of the video file.  
+-there are definitely some security considerations to be had about pulling in code from other sites.  If a bunch of different people are going to be entering content into a system, you're not going to want to just allow all iframes. Think about the security.  
+
+likely-probably
+
+white label product-It's a product or service produced by one company (the producer) that other companies (the marketers) rebrand to make it appear as if they had made it.
+## Chapter Quiz
+>-we can't create a video element that specifies diffrent resolutions of video that browsers can choose from when loading the video. Instead, the browser adapts to circumstances as needed. (*in my point of view this quotation is wrong because based what I learn from Video lesson without using adaptive bitrate streaming technology on server side , neither browser nor html element cannot switch between diffrent resolutions of video*)  
+>-the following code snippet produces an audio player with control features.
+>```html
+><audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+>```
+>-built in HTML video players do not permit adaptive bitrate streaming.  
+>-Embed codes built with the iframe element make it easier combine content from other sources into your pages and apps.  
+
+drawback-a disadvantage or the negative part of a situation
+
+tedious-boring
+
