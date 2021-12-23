@@ -36,4 +36,11 @@ prescribe-to tell someone what they must have or do, or to make a rule of someth
 
 metadata-a set of data that describes and gives information about other data
 ## Document head
+>
+
+morph-to change gradually in appearance or form
+
+shrink down-to become or cause to become smaller in size
+
+tiles image-It's the behavior of a widget to display one or more repetitions of an image
 

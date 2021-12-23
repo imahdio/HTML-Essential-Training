@@ -47,17 +47,17 @@ leave off-fail to include someone or something on a list
 > - Limited color space of 256 colors which bad choice for photographs  
 > - Can be transparent with jagged edges  
 > - Can have multiple frames and make animated gif  
-
+>
 >-svg pros and cons:
 > - Great for logos , icons and other kinds of illustrations
 > - SVGs are made of vector and math, ready to quite large or very small without ever losing any quality
-
+>
 > Notice: SVG stands for Scalable Vector Graphic, and it's a programming language for graphics.  
 -jpg pros and cons:  
 > - Great format for compressing photographs
 > - Most digital cameras save photos that you shoot as JPG files
 > - can be compressed to much smaller sizes, by simplifying the color information in the file. You can pick a balance between the quality and the file size.
-
+>
 > -png pros and cons:
 > - newer format for the web than GIFs or JPGs
 > - sometimes does a better job than a GIF or JPG at compressing the kind of images that the GIF or JPG format likes, but not always.
@@ -83,7 +83,7 @@ keep an eye out for something-to watch carefully for something
 >-|-|-
 >high resolution images|great for big screens with high network speed|1- takes a lot of times to download on a slow network connection<br>2-unneeded high resolution data for small and low pixel density screen
 >compressed images with low resolution|great for small screens with poor network speed|1-maybe web designs are limited to keeping every images phisically very small<br>2-low quality photo blown up really big on big screens
-
+>
 >-More and more screen these days however, are not 1X screens. There are a bunch of retina and high DPI screens out there with a pixel density, is [2X, 3X, 4X](https://devhints.io/resolutions) where more data can be displayed by the screen.  
 -The simplest way to support these different screens is to create multiple copies of our image in different resolutions and then tell the browser that those copies are available. The browser will take look at the screen density, the network connection, the users settings and decide which image to use. [Example code snippet](https://codepen.io/jensimmons/pen/QWLxgMy?editors=1100)  
 -practically , put 1X version of the image at source attribute of `<img>` element. in case of using CSS to adjust image to screen size , the aspect ratio take effects instead of the pixel numbers in width and hieght. inside of `srcset` (source set) attribute we'll list the images with screen density, like 2X, 3X, 4X. the browser will swap out one version of this image for another based on what it thinks is best.
@@ -126,7 +126,7 @@ swap out-to exchange
 >-`srcset` attribute gives you two options for communicating to the browser that there are a set of images available to use either by
 >1. the pixel density of the screen or
 >2. the width of the viewport
-
+>
 >-There are 2 ways to let the browser choose an image from `srcset` attribute based maximum viewport width.  
 >-The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. The marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example , the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
 >```html

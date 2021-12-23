@@ -2,7 +2,7 @@
 >-if our whole page is in the same language, we can set the language on the outermost element that wraps all the other elements. for example  
 >* lang="en-US" stands for U.S. English
 >* lang="en-GB" stands for British English
-
+>
 >-the lang attribute is a universal attribute , meaning you can put it on any element.
 -if the majority of a page is written in Mexican Spanish (`lang="es-mx"`) , for instance, but there are several block quotes written in Nahuatl (`lang="nah"`) we could arrange it like this:
 ![image](https://user-images.githubusercontent.com/64577273/147047810-277c1616-e361-401a-ae2d-41a3dd308888.png)

@@ -103,30 +103,30 @@ out there-in a place that could be anywhere except here
 > -Html entities are formatted like this. Ampersand, some kind of short code, and a semicolon. We type them into an html file and they get converted into the characters that we want.  
 -Html entities are helpful for  
 >1. write any html elements like the < or > or ampersand(&) as text phrase and prevent browser to treat with it like html codes
-
+>
 > Html entity | character
 > -|-
 >`&lt;` | `<`
 >`&gt;` | `>`
 >`&amp;` | `&`
-
+>
 > Notice: if we directly write a < or > or ampersand(&) symbols with spaces around it , it will show up as common content without any problem.  
 Notice: If you are writing html elements inside a content management system like WordPress or using a tool like markdown, there's a chance that the layer between your text editor and the pure html will handle these characters for you just fine by adding correspond HTML entities.  
-
+>
 >2. Type special characters that not existing on keyboard
-
+>
 > Html entity|character
 > -|-
 > `&copy;`|`© (Copyright symbol)`
 > `&trade;`|`™ (Trademark symbol)`
 > `&star;`|`☆`
-
+>
 >Notice: we can copy special characters instead of typing entities.  
 Notice: W3C keeps a reference chart of all the character entities.
-
+>
 >3. Non breaking space (`&nbsp;`) prevents browsers from breaking line on that space. [Example code](https://codepen.io/jensimmons/pen/VwZxGmL?editors=1000)  
 Although browsers ignore everything beyond the first regular space, the non-breaking space can also force the browser to put more than one space between words. [Example code](https://codepen.io/jensimmons/pen/zYOmOPX?editors=1000)  
-
+>
 >Notice: we can put two spaces between each sentence, if one of those spaces is a non breaking space.
 
 show up-be conspicuous or clearly visible
@@ -160,7 +160,7 @@ Notice: *based on my study friend opinion* , in spoken language we can use were 
 >1. Something seems wacky and you aren't sure what is causing it.
 >2. when you need to figure out how to apply CSS or JavaScript to a certain part of the markup.
 >3. when you want to see the DOM the browser has created from your HTML.
-
+>
 >-this code `< test >` produce this output `<test>`, Although there are other ways to produce the same output.  
 -we can add `&nbsp;` to any characters to appear as simple text instead of being parsed as code.  
 -the characters < and > are hard to present in HTML, as the code thinks they are the beginning of a tag. So instead we use the character entity `&lt;` for < and the character entity `&gt;` for >  

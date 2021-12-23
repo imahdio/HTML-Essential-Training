@@ -131,7 +131,7 @@ throwaway-something disposable or used for a short period of time
 > We can leave the content in a list shaped layout or we can lay it out however we want.|We can leave the content in a list shaped layout or we can lay it out however we want.|
 > ![](https://user-images.githubusercontent.com/64577273/144982019-4dc43ead-b7b2-4cfc-ae5d-c2a7fb78ed40.jpg)|![](https://user-images.githubusercontent.com/64577273/144982027-ffe8927d-765d-4d5f-b404-488c15641f0b.jpg)|![](https://user-images.githubusercontent.com/64577273/144982036-acd91f81-b890-4293-a161-1c341f17a951.jpg)
 > [These first six examples are all unordered lists](https://codepen.io/jensimmons/pen/eYOyoJO?editors=1000)|rest 4 other examples of prior link are all ordered lists.|-
-
+>
 > -HTML can mark the end and beginning of the whole list: unordered list , ordered lists and definition lists
 
 definition-description , a statement that explains the meaning of a word or phrase
@@ -196,7 +196,7 @@ Typography- the style and appearance of printed matter
 > "|include seconds & fractions of a second or not:<br>hh:mm:ss.ddd|![](https://user-images.githubusercontent.com/64577273/145017260-f304871f-03a3-453a-a53c-778da0ec08a6.jpg)
 > "|include time zone from greenwich time:<br>hh:mm:ss.ddd+-hh:mm|![](https://user-images.githubusercontent.com/64577273/145017265-2d1a6784-c33f-46e6-9e3f-facd2e80c910.jpg)
 > Date and Times together|between the date and time either put T or a space|![](https://user-images.githubusercontent.com/64577273/145017268-85bdc83d-aad4-475c-a05e-4978ab58ec06.jpg)
-
+>
 > -Other different format of machine-readable date time in HTML and many other programming languages:  https://lnkd.in/g7eqZhE
 
 Messy-used to describe a situation that is confused and unpleasant.
@@ -212,7 +212,7 @@ look something up-to check a fact or get information about something.
 >-|:-:|:-:
 > Greater than| > |`&gt;`
 > Less than| < | `&lt;`
-
+>
 > -`<br>`is simple single HTML tag which adds line break and browser respect it
 > ![](https://user-images.githubusercontent.com/64577273/145020704-79e15123-68cd-4ebb-9964-2e59648bf755.jpg)  
 > -`<pre>` make the browser pay attention to any indentation and line breaks in html context.  

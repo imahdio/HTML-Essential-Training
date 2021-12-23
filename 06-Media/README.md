@@ -117,7 +117,7 @@ transcode-convert (language or information) from one form of coded representatio
 >* `subtitles` provides translation of content.
 >* `descriptions` provides descriptive information about what's happening visually in the video. This gives people the option of playing a track that reads aloud descriptions.  
 >* `chapters` provides a text file that list the chapters in the video, giving users a way to jump from one section in the video to another.
-
+>
 >NOTICE: [*based my test and tries and this article*](https://act-rules.github.io/rules/ac7dc6) most assistive devices and screen readers not support `kind="descriptions"` attribute.  
 
 accent-the way in which people in a particular area, country, or social group pronounce words

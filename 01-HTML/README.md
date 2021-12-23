@@ -9,7 +9,7 @@
 > -simple structure no programming logic , loops or functions <br> -declarative language|-bit more logic and computer science structure|
 > -It’s resilience and robustness|-it’s a bit fragile and powerful and resilience|-most powerful and fragile
 > -if something is missing or spelled wrong , it just guesses their meaning and fixes it and displays the page anyway.|-if something goes wrong , browsers skip that section and not apply that styling.|-if something wrong with the code , or the browser is too old to know what that code means , the browser stops and won’t run that javascript which make javascript more fragile.
-
+>
 > -Having all three languages means that developers can combine these qualities. Resilience, robustness and power.  
 > -Do as much as possible in the more robust parts of the stack of these languages, and then use the rest of the stack to make the site better.
 
@@ -61,7 +61,7 @@ leverage-use (something) to maximum advantage
 > 2-to accommodate multiple programming styles | Programming style is different from correctness or executability.
 > ***3-to be resilient to changes in technology*** | ***Web pages should be forward-compatible.***
 > 4-to be robust with respect to dates and years | Accommodating future dates is trivial but important.
-
+>
 > -when HTML is broken because of a bug in the code , The browser guesses what you meant, and does its best to fix the bug itself.
 
 start over-make a new beginning
