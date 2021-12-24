@@ -1,3 +1,4 @@
+# 07-More Ways to Identify Content
 ## Supporting languages
 >-if our whole page is in the same language, we can set the language on the outermost element that wraps all the other elements. for example  
 >* lang="en-US" stands for U.S. English
