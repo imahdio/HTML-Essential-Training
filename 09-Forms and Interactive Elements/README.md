@@ -1,4 +1,4 @@
-# 09-HTML form basics
+# 09-Forms and Interactive Elements
 ## HTML form basics
 > -Form fields have been an integral part of the web for decades. We log into sites , buy things , request a search, add content to a site through semantic form elements.  
 -By using HTML `<form>` elements we tap into the power that's built into the browser ensure that our forms will work on every device. -`<input>` element has 2 diffrence with other elements:
@@ -36,6 +36,8 @@
 >   </body>
 > </html>
 > ```
+>![image](https://user-images.githubusercontent.com/64577273/147369222-8ec9203d-24b0-48f6-a133-22e61a1b58f8.png)
+>
 >-Notice 1: the `action` and `method` attributes hook the form up to some kind of backend to give the form some place to go & some method by which to send the data.  
 -Notice 2: using `method="get"` is not a recommended practice for a real website. It's super insecure. But it works for the purpose of making a demo.  
 -Notice 3: the `input` fields need proper `name` attribute to report the data that's been entered into the form.  
@@ -78,3 +80,19 @@ tie together-fasten , join
 ton-a lot
 
 leverage-to use something that you already have in order to achieve something new or better
+## More on forms
+>-`<type>` element define the type of input we want from fields. If you leave `<type>` off, as we did in the last lesson, the browser will assume that it's type of text.  
+-with `type="email"` the browser will double-check, and see if the data that they entered is an email. if a user tries to type something that's not an email address, they get a warning, and are asked to fix it.  
+-`type="submit"` tells the browser that our button is a submit button.  
+-We can also add a `required` attribute, to make the email feel required. Now the browser will insist that the user fills out the email field, before the form can be submitted.  
+-`placeholder` attribute could help users understand what they should fill into the field. We use the `placeholder` attribute, and put a suggestion, or an example. It's light gray by default. And as soon as I click into this field, the placeholder disappears. It's only a suggestion, it disappears.  
+-`value` attribute make pre-populated fileds with real content. When I go to type my own email address in here, the suggested one is in the way. I have to manually erase it to put in my own.  
+-[Check the complete Code snippet in here](moreOnForms.html)
+
+fill out-to write or type information in spaces that are provided for it
+
+placeholder-a symbol or piece of text in a mathematical expression or computer instruction that can be replaced by particular pieces of information
+
+prepopulated-If you are referring to a form (like a survey or application), it means that information has already been filled in.
+
+frictionless-effortless,smooth
