@@ -16,7 +16,8 @@
 -an entire HTML document is a whole bunch of HTML elements all nested inside of each other which make [document tree](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html), or family tree with parents, and children, and siblings.  
 -The browser pays attention to the structure of how HTML elements are nested and builds a Document Object Model (DOM) tree from the data structure, or big family tree.  
 -DOM is the hierarchy and structure of HTML elements, often used for targeting elements in CSS and JavaScript. [Check HERE for example](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html)<br>![](https://user-images.githubusercontent.com/64577273/213636630-ca9187ae-24d5-4868-ad41-aa89b3ab3532.jpg)  
--The browser uses the DOM tree to create an accessibility tree which affects the experience of users on your website, especially ones with various disabilities.
+-The browser uses the DOM tree to create an accessibility tree which affects the experience of users on your website, especially ones with various disabilities.  
+-It matters where we open and close our HTML tags, and how we nest elements inside of each other. We use this to convey meaning about content and interfaces.<br>![](https://user-images.githubusercontent.com/64577273/213640488-d3276b85-0960-4855-bb0d-abdb35c64ba1.jpg)
 
 tricky-If you describe a task or problem as tricky, you mean that it is difficult to do or deal with.
 
@@ -33,7 +34,7 @@ convey-to express a thought, feeling, or idea so that it is understood by other 
 
 for effect-said or done to get a particular reaction from someone
 ## Paragraphs
-> -practice online in here:  https://codepen.io/jensimmons/pen/bGbooGB  
+> -practice online in here:  https://codepen.io/imahdio/pen/WNKdvVJ  
 -codepen.io is a social development environment for front-end designers and developers and lets anyone make a demo or an experiment by typing HTML, CSS, and JavaScript into related panes.  
 -In this exercise we have got HTML describing these text content for the browser to know these are paragraphs of text.
 
@@ -76,6 +77,8 @@ intentional-planned or intended
 
 strict-strongly limiting someone's freedom to behave as they wish
 
+consistency-NO VARIETY
+
 semantic-relating to meaning in language or logic.
 
 HTML Semantic Elements-A semantic element clearly describes its meaning to both the browser & the developer. [More example](https://www.w3schools.com/html/html5_semantic_elements.asp)
@@ -92,7 +95,7 @@ pay off-yield good results; succeed
 -although `<em>` and `<i>` visually mark up text the same but only `<em>` convey human language meaning.  
 -`<b>` visual-only bold  
 -`<strong>` markup text as bold while conveying meanings like importance , seriousness & urgency.  
--to mark up something on a page typeset , we don't use the strong or B element. We just use CSS to change the weight of the type and apply the style to any element that we want.
+-to mark up something on a page typeset, we don't use the `<strong>` or `<b>` element. We just use CSS to change the weight of the type and apply the style to any element that we want.
 
 typeset-to arrange printed text and images on the page when preparing a book, newspaper, etc. for printing
 
@@ -110,15 +113,17 @@ implication-a suggestion of something that is made without saying it directly
 
 crave-to have a very strong feeling of wanting something
 
-Thin-not thick
+throwaway-something disposable or used for a short period of time
+
+jump out-have a strong visual or mental impact
+
+thin-not thick
 
 condense-to reduce something, such as a speech or piece of writing, in length
 
 otherwise-in circumstances different from those present or considered
 
 resort- action
-
-throwaway-something disposable or used for a short period of time
 ## Lists
 > -There are three kinds of lists in HTML. Unordered lists, ordered lists, and definition lists.  
 -Each list item needs to be wrapped in an `<li>` element which stands for list item.  
@@ -130,15 +135,15 @@ throwaway-something disposable or used for a short period of time
 > We use `<ul>` to convey meaning and then use CSS to totally alter how it looks.|Like said before , CSS can be used to restyle lists to look very different from the default styling.|List of definition terms `<dt>` and definition descriptions `<dd>` of each term
 > We can leave the content in a list shaped layout or we can lay it out however we want.|We can leave the content in a list shaped layout or we can lay it out however we want.|
 > ![](https://user-images.githubusercontent.com/64577273/144982019-4dc43ead-b7b2-4cfc-ae5d-c2a7fb78ed40.jpg)|![](https://user-images.githubusercontent.com/64577273/144982027-ffe8927d-765d-4d5f-b404-488c15641f0b.jpg)|![](https://user-images.githubusercontent.com/64577273/144982036-acd91f81-b890-4293-a161-1c341f17a951.jpg)
-> [These first six examples are all unordered lists](https://codepen.io/jensimmons/pen/eYOyoJO?editors=1000)|rest 4 other examples of prior link are all ordered lists.|-
+> [These first six examples are all unordered lists](https://codepen.io/imahdio/pen/QWBapPK)|rest 4 other examples of prior link are all ordered lists.|-
 >
 > -HTML can mark the end and beginning of the whole list: unordered list , ordered lists and definition lists
 
-definition-description , a statement that explains the meaning of a word or phrase
+definition-description, a statement that explains the meaning of a word or phrase
 
 teaser-an article, advertisement, short film, etc. that gives a small amount of information about a subject, product, etc. in order to make people interested in seeing or hearing more about it later.
 
-bucket list-wish list , a list of the things that a person would like to do or achieve before they die
+bucket list-wish list, a list of the things that a person would like to do or achieve before they die
 
 indentation-the blank space produced by indenting
 
@@ -148,7 +153,7 @@ go together-to look good together
 
 recipe-a set of instructions telling you how to prepare and cook food, including a list of what food is needed for this
 
-lay out something -to arrange in a pattern or design; to plan something by showing how its parts fit together
+lay out something-to arrange in a pattern or design; to plan something by showing how its parts fit together
 
 Incredibly- extremely
 ## Quotes
