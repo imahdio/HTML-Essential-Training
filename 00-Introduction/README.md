@@ -15,7 +15,10 @@ nuance-a very slight difference in appearance, meaning, sound
 consistent-acting or done in the same way over time
 
 
-Mark up-markup language is a system for annotating a document in a way that is visually distinguishable from the content
+astonished-very surprised
 
 
 up to-less than or equal to, but not more than, a stated value, number, level, or time
+
+
+Mark up-markup language is a system for annotating a document in a way that is visually distinguishable from the content

@@ -6,7 +6,7 @@
 > -|-|-
 > HTML stands for HyperText Markup Language|CSS stands for Cascading Style Sheets|JavaScript is a programming language
 > It marks up the content of a site.<br>We can call up the pre-built functionality of web browsers through using certain HTML.|It provides visual styling and layout for everything on the web page|It creates more powerful interactivity
-> -simple structure no programming logic , loops or functions <br> -declarative language|-bit more logic and computer science structure|
+> -simple structure no programming logic, loops or functions <br> -declarative language|-bit more logic and computer science structure|
 > -It’s resilience and robustness|-it’s a bit fragile and powerful and resilience|-most powerful and fragile
 > -if something is missing or spelled wrong , it just guesses their meaning and fixes it and displays the page anyway.|-if something goes wrong , browsers skip that section and not apply that styling.|-if something wrong with the code , or the browser is too old to know what that code means , the browser stops and won’t run that javascript which make javascript more fragile.
 >

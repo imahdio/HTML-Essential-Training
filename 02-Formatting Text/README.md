@@ -4,7 +4,7 @@
 -to markup a paragraph properly, we use an opening tag at the beginning of the paragraph , and then a closing tag at the end. These opening and closing tags travel the world together, in pairs.  
 ![](https://user-images.githubusercontent.com/64577273/144942422-e53ca8bf-d64c-468d-8583-30d2a3da5d1b.jpg)  
 -The whole thing is called an element.  
-![](https://user-images.githubusercontent.com/64577273/144942427-1cb11ee5-02ff-4001-95c8-32a1c0e1d94f.jpg)  
+![](https://user-images.githubusercontent.com/64577273/144942427-1cb11ee5-02ff-4001-95c8-32a1c0e1d94f.jpg)    
 -*based on my research and [this link](https://teamtreehouse.com/community/i-do-not-understand-the-difference-between-a-child-and-a-sibling)*  A child relationship is when one element (the child) is inside another element (the parent). A sibling relationship is between two elements that are both inside the same parent element.  
 -Although not every element has a closing tag , But a lot of the HTML elements do have both an opening and a closing tag. Like the following:
 > ```html
@@ -12,10 +12,10 @@
 > <h1>This is a headline.</h1>
 > <article>This is an article.</article>
 > ```
-> -The HTML markup provides computers a way to understand more about what the content, or the interface, means to humans.  
--an entire HTML document is a whole bunch of HTML elements all nested inside of each other which make [document tree](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html).  
--The browser pays attention to the structure of how HTML elements are nested and builds a Document Object Model (DOM) tree from the data structure.  
--DOM is the hierarchy and structure of HTML elements , often used for targeting elements in CSS and JavaScript. [Check HERE for example](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html)  
+> -The HTML markup conveys purpose and meaning.<br>![](https://user-images.githubusercontent.com/64577273/213635200-34b65ed7-e4a8-408e-bc4d-a9e11710c360.jpg)  
+-an entire HTML document is a whole bunch of HTML elements all nested inside of each other which make [document tree](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html), or family tree with parents, and children, and siblings.  
+-The browser pays attention to the structure of how HTML elements are nested and builds a Document Object Model (DOM) tree from the data structure, or big family tree.  
+-DOM is the hierarchy and structure of HTML elements, often used for targeting elements in CSS and JavaScript. [Check HERE for example](http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html)<br>![](https://user-images.githubusercontent.com/64577273/213636630-ca9187ae-24d5-4868-ad41-aa89b3ab3532.jpg)  
 -The browser uses the DOM tree to create an accessibility tree which affects the experience of users on your website, especially ones with various disabilities.
 
 tricky-If you describe a task or problem as tricky, you mean that it is difficult to do or deal with.
