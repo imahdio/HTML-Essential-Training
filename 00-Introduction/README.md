@@ -17,5 +17,4 @@ Mark up-markup language is a system for annotating a document in a way that is v
 
 up to-less than or equal to, but not more than, a stated value, number, level, or time
 
-
 Mark up-markup language is a system for annotating a document in a way that is visually distinguishable from the content
