@@ -6,11 +6,11 @@
 >```
 >-The source attribute is what tells the browser which image file to load.  
 -ALT attribute acts as a substitute for the image whenever the image can't be seen.  
--when leave the alt attribute blank , It'll be skipped over and nothing will be spoken aloud.  If we leave off the alt attribute instead, the image file name will get read aloud.  
+-when leave the alt attribute blank, It'll be skipped over and nothing will be spoken aloud.  If we leave off the alt attribute instead, the image file name will get read aloud.  
 -width and height attribute let the browser know how big the image is in pixels.  
 -the order of attributes in an HTML element never matters, we can put them in whatever order we want.  
--if leave off the height and width attributes , browser has to get the size information out of the file after the image has fully downloaded. This in turn causes jumping around texts as images load and moving everything as we're trying to read.  
--*based on my test and tries* , when working with `<img>` element , following conditions can be occured  
+-if leave off the height and width attributes, browser has to get the size information out of the file after the image has fully downloaded. This in turn causes jumping around texts as images load and moving everything as we're trying to read.  
+-*based on my test and tries*, when working with `<img>` element, following conditions can be occured  
 >condition|result
 >-|-
 >Leave off both height and weight attributes|Image is loaded in its original actual size
@@ -21,7 +21,7 @@ happen to be-is
 
 substitute-to use something or someone instead of another thing or person
 
-shiny-bright because it reflects light.
+shiny-bright because it reflects light
 
 pensive-thinking in a quiet way, often with a serious expression on your face
 
@@ -85,8 +85,8 @@ keep an eye out for something-to watch carefully for something
 >compressed images with low resolution|great for small screens with poor network speed|1-maybe web designs are limited to keeping every images phisically very small<br>2-low quality photo blown up really big on big screens
 >
 >-More and more screen these days however, are not 1X screens. There are a bunch of retina and high DPI screens out there with a pixel density, is [2X, 3X, 4X](https://devhints.io/resolutions) where more data can be displayed by the screen.  
--The simplest way to support these different screens is to create multiple copies of our image in different resolutions and then tell the browser that those copies are available. The browser will take look at the screen density, the network connection, the users settings and decide which image to use. [Example code snippet](https://codepen.io/jensimmons/pen/QWLxgMy?editors=1100)  
--practically , put 1X version of the image at source attribute of `<img>` element. in case of using CSS to adjust image to screen size , the aspect ratio take effects instead of the pixel numbers in width and hieght. inside of `srcset` (source set) attribute we'll list the images with screen density, like 2X, 3X, 4X. the browser will swap out one version of this image for another based on what it thinks is best.
+-The simplest way to support these different screens is to create multiple copies of our image in different resolutions and then tell the browser that those copies are available. The browser will take look at the screen density, the network connection, the users settings and decide which image to use. [Example code snippet](https://codepen.io/imahdio/pen/oNMEBbg)  
+-practically, put 1X version of the image at source attribute of `<img>` element. in case of using CSS to adjust image to screen size, the aspect ratio take effects instead of the pixel numbers in width and hieght. inside of `srcset` (source set) attribute we'll list the images with screen density, like 2X, 3X, 4X. the browser will swap out one version of this image for another based on what it thinks is best.
 >```html
 ><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
 >     alt="shiny black dog looking pensive" 
@@ -116,19 +116,19 @@ Retina Display-It's a term coined by Apple which means the pixel density on a sc
 
 coin-to invent a new word or expression, or to use one in a particular way for the first time.
 
-<a name="xfactor"></a> @1x, @2x, @3x- It's refering to [pixel density that makes actual resolution](https://devhints.io/resolutions) , not screen size. [More info about PPI calculation](https://www.calculatorsoup.com/calculators/technology/ppi-calculator.php)
+<a name="xfactor"></a> @1x, @2x, @3x- It's refering to [pixel density that makes actual resolution](https://devhints.io/resolutions), not screen size. [More info about PPI calculation](https://www.calculatorsoup.com/calculators/technology/ppi-calculator.php)
 
 swap out-to exchange
 
 ## Resposive width
->-*based on my point of view , this lesson has many wrong concepts which incompatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
+>-*based on my point of view, this lesson has many wrong concepts which incompatible with my test and tries, that's why I try to gather my own assumption based the instructor clues.*  
 >-*firefox makes interactive experiment of this lesson exercise*  
 >-`srcset` attribute gives you two options for communicating to the browser that there are a set of images available to use either by
 >1. the pixel density of the screen or
 >2. the width of the viewport
 >
 >-There are 2 ways to let the browser choose an image from `srcset` attribute based maximum viewport width.  
->-The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. The marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example , the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
+>1. The `srcset` attribute gives us a way to specify for the browser each image can be shown till which maximum viewport's width. The marks like 480w, 960w means maximum 480 pixels or 960 pixels wide. for example, the following code snippet shows dog-480.jpg up to 960px viewport's width but for wider size till 1440px dog-960.jpg will be loaded and so on.
 >```html
 ><img class="half-width"
 >   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
@@ -139,7 +139,21 @@ swap out-to exchange
 >   width="480" height="360"
 >>
 >```
->-The `sizes` attribute gives us another way to modify already specified maximum width in `srcset` attribute to another breakpoints. check it either through [myown modified code snippet](https://codepen.io/ma400/pen/VwMbOXJ) or [The original code snippet of this lesson](https://codepen.io/jensimmons/pres/wvwXOYa).
+>2. The `sizes` attribute gives us another way to modify already specified maximum width in `srcset` attribute to another breakpoints. for example, the output of following codesnippet is the same as prior one. [compare and Interact with them in here](https://codepen.io/ma400/pen/VwMbOXJ)
+>```html
+><img class="half-width"
+>   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
+>   srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg  480w,
+>           https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg  960w,
+>	   	  https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 1440w,
+>		  https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 1920w"
+>   sizes="(max-width: 960px) 480px,
+>          (max-width: 1440px) 960px,
+>          1920px"
+>   alt="shiny black dog looking pensive" 
+>   width="480" height="360"
+>>
+>```
 
 as breakpoint that image will take up.
 

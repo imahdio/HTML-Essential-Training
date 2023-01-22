@@ -1,12 +1,13 @@
 # 04-Linking and Navigation
 ## Links
-> -to make a link we use the `<a>` element which stands for anchor. On the opening tag we need the href attribute which stands for hypertext attribute and point to where we want the link to go. Between the opening and closing `<a>` tags, put whatever you want to be clickable.
+> -to make a link we use the `<a>` element which stands for anchor. On the opening tag we need the `href` attribute which stands for hypertext attribute and point to where we want the link to go. Between the opening and closing `<a>` tags, put whatever you want to be clickable.
 >```html
 ><a href="page.html">Link</a>  //link to relative URL
 ><a href="https://example.com">This is a link.</a>  //link to absolute URL
 >```
->Notice: href stands for hypertext not hyperlink because *in my point of view*, its value usually points (references) into a hypertext document.  
->-Between the opening and closing `<a>` tags, put usually text or an image or both. By default, the `<a>` element is an inline element. It easily goes in the midst of the flow of some text. It's possible to put a link around more complex content like a teaser card or around several other elements creating a whole group of things that all become linked. [Example codes](https://codepen.io/jensimmons/pres/wvwjERm?editors=1000)  
+>Notice: `href` stands for hypertext reference, because *in my point of view*, its value usually points (references) into a hypertext document.  
+>-Between the opening and closing `<a>` tags, put usually text or an image or both.  
+>-By default, the `<a>` element is an [inline element](https://www.w3schools.com/html/html_blocks.asp). It easily goes in the midst of the flow of some text. It's possible to put a link around more complex content like a teaser card or around several other elements creating a whole group of things that all become linked. [Example codes](https://codepen.io/jensimmons/pres/wvwjERm?editors=1000)  
 -absolute urls point to specific absolute places on the web whether home page or any content deeper in. we must include the HTTP or the HTTPS in an absolute URL while including the trailing slash doesn't matter.
 >```html
 ><a href="https://example.com">Link</a>
@@ -81,23 +82,22 @@ from scratch-from the very beginning
 
 elegant-graceful and attractive in appearance or behaviour
 
-craft- to make objects, especially in a skilled way
-
 type out- the act of typing
 
 craft-to make objects, especially in a skilled way
 ## Navigation
 > -the `<nav>` element is for marking up navigation. It tells the browser which sets of links are part of the site navigation. We don't use it all the time, just for major blocks of navigational links.  
--to convey the purpose of the main menu for **screen readers and other assistive devices** , we can add `roll="navigation"` to the `<nav>` element. It’s an ARIA roll that conveys extra kind of importance for marking the main navigation of the page like what is conveyed to other people visually through graphic design.  
+-to convey the purpose of the main menu for **screen readers and other assistive devices**, we can add `roll="navigation"` to the `<nav>` element. It’s an ARIA roll that conveys extra kind of importance for marking the main navigation of the page like what is conveyed to other people visually through graphic design.  
 -`aria-label="main-menu (or whatever)"` provides a label that can be read aloud by the screen reader.  
--[This FIRST Example code](https://codepen.io/jensimmons/pen/rNBvqKL?editors=1000) for using set of links , make main menu using unordered list and CSS.  
+-[This FIRST Example code](https://codepen.io/imahdio/pen/MWBQKLb) for using set of links, **makes main menu** using unordered list and CSS.  
 ![](https://user-images.githubusercontent.com/64577273/145083000-bf70f17e-6bb5-4c8b-8162-063028ddaf67.jpg)  
--[This SECOND Example code](https://codepen.io/jensimmons/pen/dybKOxm?editors=1000) for using set of links , makes breadcrumb trail navigation menu using ordered list and CSS.  
+-[This SECOND Example code](https://codepen.io/imahdio/pen/abjqdXV) for using set of links, **makes breadcrumb trail navigation menu** using ordered list and CSS.  
 ![](https://user-images.githubusercontent.com/64577273/145083002-60df0ac3-79da-4650-b0a3-b876ef0614bb.jpg)  
--*based on my assumption* , there must be such the following table
+-Notice: *Based my test and tries*, using either ordered or unordered lists, have same effects on navigation bars.  
+-*based on my assumption*, there must be such the following table  
 *I reached some unresolved conflicts if the following table is true!!*  
 ![](https://user-images.githubusercontent.com/64577273/145083004-c2e9022f-c081-49c9-b65f-4658ab3039b3.jpg)  
--[This THIRD Example code](https://codepen.io/jensimmons/pen/vYBrgYz?editors=1000) for using set of links , makes footer using footer element and CSS while It’s not really part of a navigation.  
+-[This THIRD Example code](https://codepen.io/imahdio/pen/gOjvPqy) for using set of links, **makes footer** using footer element and CSS while It’s not really part of a navigation.  
 ![](https://user-images.githubusercontent.com/64577273/145083009-ad428b43-988d-4669-8cef-d9b24afc426e.jpg)
 
 major- important, serious, or significant

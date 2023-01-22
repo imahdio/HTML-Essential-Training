@@ -158,15 +158,14 @@ lay out something-to arrange in a pattern or design; to plan something by showin
 Incredibly- extremely
 ## Quotes
 > -`<cite>` and `<blockquote>` are being used for their HTML semantic value. They convey meaning to other computers and convenient places to use target styling through CSS.  
--in following snippet , we use `<cite>` element to credit jeremy as the person who said the quote and wrap the whole thing in a `<blockquote>` element to distinguish it from surrounding text.  
+-in following snippet , we use `<cite>` element to <cite>keith jeremy</cite> as the person who said the quote and wrap the whole thing in a `<blockquote>` element to distinguish it from surrounding text.  
 ![](https://user-images.githubusercontent.com/64577273/145017243-3076e0f4-2062-48ba-8d22-9e6e9b933c2d.jpg)  
 -*based on chapter Quiz lesson* The `<cite>` element identifies sources.  
--we can put any element inside the blockquote like list or headline while nested inside each other.  
--`<q>` stands for quote and lets the browser provide the quote marks for us instead of typing the quotes manually.   Its typography shape depends on the language and types of conventions of a particular region can be straight quote marks or curly quote marks.  
+-we can put any element inside the `<blockquote>` like list or headline while nested inside each other.  
+-`<q>` stands for quote and lets the browser provide the quote marks for us instead of typing the quotes manually. Its typography shape depends on the language and types of conventions of a particular region can be straight quote marks or curly quote marks. [like this example](https://codepen.io/imahdio/pen/QWBagOJ)  
 -inline elements wrap around phrases of content that are inline with some other contents like `<q>` , `<strong>` , `<b>` , `<i>` and `<em>` and etc. all other elements are block-level elements like `<blockquote>` , `<p>` , `<ul>`.   They are blocks that can be followed by another block.  
 ![](https://user-images.githubusercontent.com/64577273/145017249-84c5c983-8723-4392-bd5b-b38ac95b45c5.jpg)  
 -when you use CSS you can switch the layout behavior from block to inline or from inline to block.  
--*CONFLICT! Based on my tests and tries* , we can use `<ul>` blockquote element nested `<p>` blockquote element which is against the definition of blockquote elements.  
 -Overally we can mark up quotes with `<blockquote>` , `<q>` and `<cite>` elements.
 
 passage-a short piece of writing or music that is part of a larger piece of work
@@ -206,6 +205,8 @@ Typography- the style and appearance of printed matter
 
 Messy-used to describe a situation that is confused and unpleasant.
 
+Greenwich Mean Time-GMT
+
 span-the period of time that something exists or happens
 
 look something up-to check a fact or get information about something.
@@ -222,8 +223,8 @@ look something up-to check a fact or get information about something.
 > ![](https://user-images.githubusercontent.com/64577273/145020704-79e15123-68cd-4ebb-9964-2e59648bf755.jpg)  
 > -`<pre>` make the browser pay attention to any indentation and line breaks in html context.  
 > ![](https://user-images.githubusercontent.com/64577273/145020707-9a47ac23-c8ec-4af1-9fa1-3d945aa1b8e2.jpg)  
-> -`<pre>` and `<code>` are frequently combined to show a block of code with indentation. In the following example , the whole code is wrapped in `<code>` element to convey meaning of code for browser and other computers and all of that is wrapped in `<pre>` element which maintains the semantic formatting and spacing.
-https://codepen.io/jensimmons/pen/gOYvjpa  
+> -`<pre>` and `<code>` are frequently combined to show a block of code with indentation. In the following example, the whole code is wrapped in `<code>` element to convey meaning of code for browser and other computers and all of that is wrapped in `<pre>` element which maintains the semantic formatting and spacing.
+[Example on codepen](https://codepen.io/imahdio/pen/gOjoGQL)  
 > ![](https://user-images.githubusercontent.com/64577273/145020718-e04cf912-2f97-4232-a20b-1eacec79ca59.jpg)
 
 Stand out-to be easily seen or noticed
@@ -235,6 +236,8 @@ character entity- It’s a code used to represent a character that doesn't belon
 HTML entity- It’s a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; )
 
 entity-a thing with distinct and independent existence
+
+indent-to begin a line of written or printed text after leaving extra space
 
 Mash up-mix or combine two or more different elements
 
@@ -252,6 +255,8 @@ bit-a small piece or amount of something
 toss-to throw something carelessly
 
 prominence- the state of being important, famous, or noticeable
+
+markup language-consists of easily understood keywords, names, or tags that help format the overall view of a page like html and markdown languages
 
 fine print- text in a formal agreement that is printed smaller than the rest of the text, sometimes in the hope that it will not be noticed
 
@@ -296,6 +301,8 @@ go away- to leave a place or person
 -Besides visual appearance,  The hierarchy created by headlines can be used for other purposes.  
 -`<strong>` convey importance, seriousness, or urgency.  
 -`<em>` and `<strong>` are used to convey a sense of importance or stress when spoken.
+
+relative-considered in relation or in proportion to something else
 
 preserve-to keep something as it is
 

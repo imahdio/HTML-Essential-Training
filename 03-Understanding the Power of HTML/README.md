@@ -36,16 +36,16 @@ furtively- secretively
 > <p class="intro">content</p>  //true
 > <p class="class1 class2">content</p>  //true
 > ```
-> -id is a global attribute that is similar to class but we’re only allowed to use one specific id in each HTML element. *(based on my own test and tries and study friend’s opinion , I revised this hint due to wrong believes in main quotation)*
+> -id is a global attribute that is similar to class but we’re only allowed to use one specific id in each HTML element. *(based on my own test and tries and study friend’s opinion, I revised this hint due to wrong believes in main quotation)*
 > ```html
 > <p class="class1 class2" id="id1">content</p>  //true
 > <p class="class1 class2" id="id1 id2">content</p>  //wrong , cannot use several id like class in one element
 > ```
 > -although we can use either class or id for targeting css but class is best for css more than id.  
--ids are particularly helpful for addressing particular elements with JavaScript or, with a targeted link. That’s why It’s a good convention to use just one element with any particular ID name in an entire HTML page **when interacting with javascript or links**. [For example in this link](https://codepen.io/jensimmons/pen/WNeJErX?editors=1100) , there is a table of contents with links that jump to the elements that have the matching ID.  
--contenteditable is a global attribute that lets a visitor to a page edit the content of that page. Notice that it doesn’t change the content in the HTML and if you refresh the webpage , it goes back to the original. [Code link](https://codepen.io/jensimmons/pen/KKPRZLJ?editors=1000)  
--lang is a global attribute that tells the browser what language the content is in.  
--dir (stand for direction) is a global attribute that gives us a way to explicitly tell the browser in which **direction** the text flows.  
+-ids are particularly helpful for addressing particular elements with JavaScript or, with a targeted link. That’s why It’s a good convention to use just one element with any particular ID name in an entire HTML page **when interacting with javascript or links**. [For example in this link](https://codepen.io/imahdio/pen/eYjyjqp) , there is a table of contents with links that jump to the elements that have the matching ID.  
+-`contenteditable` is a global attribute that lets a visitor to a page edit the content of that page. Notice that it doesn’t change the content in the HTML and if you refresh the webpage , it goes back to the original. [Code link](https://codepen.io/imahdio/pen/oNMpPjG)  
+-`lang` is a global attribute that tells the browser what language the content is in.  
+-`dir` (stand for direction) is a global attribute that gives us a way to explicitly tell the browser in which **direction** the text flows.  
 ![](https://user-images.githubusercontent.com/64577273/145069325-c8972710-d735-4a03-9956-cbba75a4eace.jpg)  
 -Class , ID , Lang and Dir are 4 most important global attributes. List of global attributes can be found in MDM web docs.
 
@@ -56,8 +56,10 @@ particularly-especially, or more than usual
 Assistive devices -assistive equipment is designed for people who have physical difficulties and need help with using things like computers
 
 hook into sth- to connect to sth
+
+mumbling-speaking or spoken in a quiet and indistinct way
 ## ARIA roles
-> -ARIA roles are HTML attributes that make layer of informaion to  tells [screen readers](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) and other assisitve devices semantics of the contents about not ideally proper elements. in this example if we don't use ARIA roles , screen readers say words separately. [Editor View](https://codepen.io/jensimmons/pen/wvwjxJa?editors=1100) | [debug mode](https://cdpn.io/jensimmons/debug/wvwjxJa)  
+> -ARIA roles are HTML attributes that make layer of informaion to  tells [screen readers](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) and other assisitve devices semantics of the contents about not ideally proper elements. in this example if we don't use ARIA roles, screen readers say words separately. [Editor View](https://codepen.io/imahdio/pen/poZpOrj) | [debug mode](https://cdpn.io/jensimmons/debug/wvwjxJa)  
 > -Browser uses HTML to build DOM trees. And then takes the DOM tree to build the accessibility tree. The accessibility tree is what [screen readers](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) and assistive devices use to provide an experience of the website through a screen reader which make your website accessible for every one.  
 > -[In following example](https://codepen.io/ma400/pen/VwMpYyq) , `aria-label` attribute determine the proper sentence that screen reader will read and `aria-hidden="true"` removes inappropriate element with all of its children from the accessibility tree.  
 >```html
@@ -69,6 +71,8 @@ hook into sth- to connect to sth
 >```
 
 compromise-an agreement in an argument in which the people involved reduce their demands or change their opinion in order to agree
+
+it's gone-it has disappeared, it has been lost
 
 deserve-do something or have or show qualities worthy of
 ## Formatting HTML
@@ -84,9 +88,9 @@ deserve-do something or have or show qualities worthy of
 > Elements that don't have anything between opening and closing tags by default|![](https://user-images.githubusercontent.com/64577273/145069337-bb709db3-4798-446b-861c-6718292f06dd.jpg)
 > Some older elements not have closing tag|![](https://user-images.githubusercontent.com/64577273/145069341-acc492fa-fdf1-4567-9d40-4d383090ad97.jpg)
 
-ancient-of or from a very long time ago
+carriage return-a character that tells a computer to move the cursor to the beginning of the line; The `<br>` HTML element produces a line break in text
 
-carriage return- The `<br>` HTML element produces a line break in text
+ancient-of or from a very long time ago
 
 evolve-develop gradually
 
@@ -102,7 +106,7 @@ out there-in a place that could be anywhere except here
 ## Weird characters
 > -Html entities are formatted like this. Ampersand, some kind of short code, and a semicolon. We type them into an html file and they get converted into the characters that we want.  
 -Html entities are helpful for  
->1. write any html elements like the < or > or ampersand(&) as text phrase and prevent browser to treat with it like html codes
+>1. write any html elements like the `<` or `>` or `ampersand(&)` as text phrase and prevent browser to treat with it like html codes
 >
 > Html entity | character
 > -|-
@@ -110,7 +114,7 @@ out there-in a place that could be anywhere except here
 >`&gt;` | `>`
 >`&amp;` | `&`
 >
-> Notice: if we directly write a < or > or ampersand(&) symbols with spaces around it , it will show up as common content without any problem.  
+> Notice: if we directly write a `<` or `>` or `&` symbols with spaces around it, it will show up as common content without any problem.  
 Notice: If you are writing html elements inside a content management system like WordPress or using a tool like markdown, there's a chance that the layer between your text editor and the pure html will handle these characters for you just fine by adding correspond HTML entities.  
 >
 >2. Type special characters that not existing on keyboard
@@ -124,8 +128,8 @@ Notice: If you are writing html elements inside a content management system like
 >Notice: we can copy special characters instead of typing entities.  
 Notice: W3C keeps a reference chart of all the character entities.
 >
->3. Non breaking space (`&nbsp;`) prevents browsers from breaking line on that space. [Example code](https://codepen.io/jensimmons/pen/VwZxGmL?editors=1000)  
-Although browsers ignore everything beyond the first regular space, the non-breaking space can also force the browser to put more than one space between words. [Example code](https://codepen.io/jensimmons/pen/zYOmOPX?editors=1000)  
+>3. Non breaking space (`&nbsp;`) prevents browsers from breaking line on that space. [Example code](https://codepen.io/imahdio/pen/xxJpBNE)  
+Although browsers ignore everything beyond the first regular space, the non-breaking space can also force the browser to put more than one space between words. [Example code](https://codepen.io/imahdio/pen/oNMpVRW)  
 >
 >Notice: we can put two spaces between each sentence, if one of those spaces is a non breaking space.
 
@@ -137,7 +141,7 @@ correspond-to match or be similar or equal
 
 wrap-to cover or surround something with any materials
 
-word wrap-line breaking , this feature breaks lines between words rather than within words.
+word wrap-line breaking, this feature breaks lines **between** words rather than **within** words.
 ## Chapter Quiz
 > -user can gain access to the debugging features of a browser by accessing developer tools  
 -The dir attribute is global. It stands for “direction” and can be used on any element to specify the direction of inline flow for that content.  
