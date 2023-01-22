@@ -155,15 +155,9 @@ swap out-to exchange
 >>
 >```
 
-as breakpoint that image will take up.
-
-list a set of images and specify maximum viewport's width that image will take up at which break point.
-
-specify maximum and have the browser decide which file to download and display considering the pixel density of the screen.
-
 viewport-the area in browser windows being currently viewed for example on most mobile devices and when the browser is in fullscreen mode, the viewport is the entire screen.
 
-parse-is transforming one thing to another with equal meaning , in computer science, is where a string of commands – usually a program – is separated into more easily processed components before transform into machine language. [for more info,check there](https://www.techopedia.com/definition/3853/parse)
+parse-To parse is to break up a sentence or group of words into separate components; in computer science, is where a string of commands – usually a program – is separated into more easily processed components before transform into machine language. [for more info, check there](https://www.techopedia.com/definition/3853/parse)
 ## Responsive pictures
 >-*like the privious lesson and based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
 >-*firefox makes interactive experiment of this lesson exercise.*  
