@@ -53,7 +53,7 @@ reveal-to make known or show something that is surprising or that was previously
 >`<th></th>`|th-table header|defines a header for a column|colspan,rowspan,scope
 >`<td></td>`|td-table data|marks the actual bits of data|
 >
-> -[This table code snippet](https://codepen.io/jensimmons/pen/WNeKpro?editors=1100) has six rows, five rows about five different birds, and a top row, which contains the header for each column.
+> -[This table code snippet](https://codepen.io/imahdio/pen/mdjxRqr) has six rows, five rows about five different birds, and a top row, which contains the header for each column.
 > 
 > 1. we start with a `<table>` element to mark the beginning of the table. Of course we'll close it at the end, so let's do that now with `</table>`.
 > 
@@ -92,7 +92,7 @@ reveal-to make known or show something that is surprising or that was previously
 >         <td>American Goldfinch</td>
 >         <td>yellow</td>
 >         <td>Mostly seeds.</td>
->         <td><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/american-goldfinch.jpg" alt="american-goldfinch" width="360" height="261"></td>
+>         <td><img src="https://s.cdpn.io/10558/american-goldfinch.jpg" alt="american-goldfinch" width="360" height="261"></td>
 >     </tr>
 >     <tr>
 >     </tr>

@@ -29,7 +29,7 @@ plan-a detailed proposal for doing or achieving something
 
 representative-someone who speaks or does something officially for another person or group of people
 
-debate-argue about (a subject) especially in a formal manner , to try to make a decision about something
+debate-argue about (a subject) especially in a formal manner, to try to make a decision about something
 
 leave out-to not include or mention 
 
