@@ -2,18 +2,18 @@
 ## The HTML page
 >-HTML files are key building block of the web.  
 -a user goes to a URL, hitting that URL sends a request for an HTML file, a server returns a single HTML file, the browser reads the HTML file and does what it says.  
--Text frequently is stored in a database or multiple static files often pull together the last millisecond, custom for each user. Visual styling is in CSS files, JavaScript is in separate JavaScript files, plus the images , video, audio files, advertisements.  
+-Text frequently is stored in a database or multiple static files often pull together the last millisecond, custom for each user. Visual styling is in CSS files, JavaScript is in separate JavaScript files, plus the images, video, audio files, advertisements.  
 -When the browser gets html file, it immediately starts reading it from top to bottom and starts to do what it says.  
 -Once the HTML file is built, there are several key parts that every web page must have.
->1. First, the file must start with a `<!doctype html>` , This little statement declares which era this HTML file is from. So by including this one, we tell the browser this is a modern web page, cut it with modern best practices.
+>1. First, the file must start with a `<!doctype html>`, This little statement declares which era this HTML file is from. So by including this one, we tell the browser this is a modern web page, cut it with modern best practices.
 >2. Then, we wrap everything else on the page with an `<html lang="en-US" dir="ltr">` element to declare which language we're going to use and in which direction the content should flow.
->3. Then inside `<html>` element , you have two major parts where everything goes. The `<head>` and the `<body>`. The `<head>` is for all the metadata, all the stuff about the document that a browser needs to know but will not be displayed on the page.
+>3. Then inside `<html>` element, you have two major parts where everything goes. The `<head>` and the `<body>`. The `<head>` is for all the metadata, all the stuff about the document that a browser needs to know but will not be displayed on the page.
 >4. the `body` element contains the information and content that will be displayed on the page.
 ![image](https://user-images.githubusercontent.com/64577273/147146582-fac40800-eaab-4e15-b1db-8cca1a198a53.png)
 
 implicit-suggested though not directly expressed
 
-pull together-cooperate in a task or undertaking , to work hard as a group in order to achieve something
+pull together-cooperate in a task or undertaking, to work hard as a group in order to achieve something
 
 mishmash-a confused mixture, a badly organized mixture
 
@@ -38,9 +38,13 @@ prescribe-to tell someone what they must have or do, or to make a rule of someth
 metadata-a set of data that describes and gives information about other data
 ## Document head
 >-The meta elements only used inside the head and conveys metadata about the page. It's not content that you want the users see. It's information about this website that you want the browser to know.  
--we need the following elements , inside the head of every HTML page:
->* to define the character set, we'll use `charset` attribute, and set it to utf-8
+-we need the following elements, inside the head of every HTML page:
+>* `charset` attribute to define the character set, and set it to utf-8
 >* `<title>` element is not a title that gets displayed as content. It's a title for the webpage that's used by the browser. It shows up as the name on a browser tab, or as a bookmark title
+>
+>code|result
+>-|-
+>![](https://user-images.githubusercontent.com/64577273/214137110-c771d5ad-8f4a-449f-b827-5dae938001d9.png)|![](https://user-images.githubusercontent.com/64577273/214137449-b04fadd2-a47e-4e6c-b1de-9b6cc5bdedb7.png)
 >
 >-we might want to have other elements inside the head of the page like:
 >* The meta element can be used to define all kinds of settings.
@@ -71,6 +75,8 @@ metadata-a set of data that describes and gives information about other data
 ><script src="my-javascript-file.js"></script>
 >```
 
+incredibly-extremely
+
 morph-to change gradually in appearance or form
 
 shrink down-to become or cause to become smaller in size
@@ -87,7 +93,13 @@ tiles image-It's the behavior of a widget to display one or more repetitions of 
 >5. `section` is used to wrap around sections of content. If we have a long essay for instance, that's broken up into chunks with sub headlines, we can use the `section` element to mark each segment. It's a flexible element that means, okay, let's just start with another thing. Usually each section has its own headline marking the start of a new segment of content.
 >6. `aside` is for marking something that's off to the side. Perhaps in a side bar, or any content that's kind of not the main attraction. It could be an inset panel that goes with a big article giving additional information, but isn't quite part of the flow of the article itself. Or advertisements, they are a side thing perhaps best marked as an aside.  
 
+suit-to be convenient or work well for someone or something
+
+instance-a particular situation, event, or fact, especially an example of something that happens generally
+
 snip-a small piece of anything (especially a piece that has been snipped off)
+
+Off to the side-aside or apart (from a group or main area of something), especially to be out of the way or out of earshot
 
 overall structure-overall form or organization of something
 
@@ -126,7 +138,7 @@ Notice: The `<title>` element is a document specification; it does not necessari
 -the head of an HTML page should contain metadata.  
 -`doctype` is a mandatory declaration at the beginning of every web page.  
 -The browser parses a single HTML document, which may also include links to other resources, which the browser then downloads and presents.  
--While a browser does start by making a request to a URL, a single HTML document is usually the key payload, not multiple.
+-While a browser does start by making a request to a URL, a single HTML document is usually the key payload, not multiple.  
 -`<title>` element inside of the `<head>` element identify the page when it's bookmarked. The `<title>` element provides the bookmark information.  
 -`<section>` could be a paragraph or a group of paragraphs united by subject or focus.  
 -an `<aside>` element is appropriate for footnotes or diversions from the main topic. it's most appropriate to implement the pink box in the above image too.

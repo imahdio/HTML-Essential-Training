@@ -4,8 +4,8 @@
 >* lang="en-US" stands for U.S. English
 >* lang="en-GB" stands for British English
 >
->-the lang attribute is a universal attribute , meaning you can put it on any element.
--if the majority of a page is written in Mexican Spanish (`lang="es-mx"`) , for instance, but there are several block quotes written in Nahuatl (`lang="nah"`) we could arrange it like this:
+>-the lang attribute is a universal attribute, meaning you can put it on any element.  
+-if the majority of a page is written in Mexican Spanish (`lang="es-mx"`), for instance, but there are several block quotes written in Nahuatl (`lang="nah"`) we could arrange it like this:
 ![image](https://user-images.githubusercontent.com/64577273/147047810-277c1616-e361-401a-ae2d-41a3dd308888.png)
 -Specify the direction our content flows with the `dir` attribute which is a universal attribute that can go on any element like the following examples:
 >```html
@@ -13,10 +13,10 @@
 ><html lang="ar" dir="rtl">
 >```
 >NOTICE: When you mix content, you want to mark each phrase with the change of directions.  
--all of the human language , characters, letters, and symbols are written in a script and in a format for computers to understand.  
+-all of the human language, characters, letters, and symbols are written in a script and in a format for computers to understand.  
 -`charset` attribute defines the alphabet or set of characters for the script language.  
 -ASCII is an encoding standard limited to 128 characters basically the characters from an English language typewriter.  
--Unicode or UTF-8 is a universal encoding standard for characters encompassing many languages. It supports every language, all scripts, all form of communication, including Braille, sign writing, musical notation, and almost 3000 emoji.
+-Unicode or UTF-8 is a universal encoding standard for characters encompassing many languages. It supports every language, all scripts, all form of communication, including Braille, sign writing, musical notation, and almost 3000 emoji.  
 -following code specify the charset for HTML.
 >```html
 ><head>
@@ -29,6 +29,8 @@ by its very nature-because of the nature of the subject
 propagate-to spread opinions, lies, or beliefs among a lot of people
 
 encompass-to include different types of things
+
+inclusive-including everything or all types of people
 ## Generic elements: div and span
 >-`<div>` and `<span>` are two elements that you can use anytime none of the other elements make sense.  
 -Before 2010, before HTML 5 brought us so many of the semantic elements that we need, we used divs for all sorts of use cases.    
@@ -52,6 +54,8 @@ likly-probably
 get away-escape
 
 colleague-one of a group of people who work together
+
+kick in-come into effect or operation
 
 resort-the fact that you have to do something because there is no other way of achieving something
 ## Chapter Quiz

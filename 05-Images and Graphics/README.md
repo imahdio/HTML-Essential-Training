@@ -159,9 +159,9 @@ viewport-the area in browser windows being currently viewed for example on most 
 
 parse-To parse is to break up a sentence or group of words into separate components; in computer science, is where a string of commands – usually a program – is separated into more easily processed components before transform into machine language. [for more info, check there](https://www.techopedia.com/definition/3853/parse)
 ## Responsive pictures
->-*like the privious lesson and based on my point of view , this lesson has many wrong concepts which not compatible with my test and tries , that's why I try to gather my own assumption based the instructor clues.*  
+>-*like the privious lesson and based on my point of view, this lesson has many wrong concepts which not compatible with my test and tries, that's why I try to gather my own assumption based the instructor clues.*  
 >-*firefox makes interactive experiment of this lesson exercise.*  
--this is 3th way to let the browser choose an image from `srcset` attribute based maximum viewport width using `picture` and `source` elements , `media` (which handle the media queries) and `srcset` attributes. in this scenario , When the viewport is a minimum of 600 pixels wide or bigger, the landscape versions of this photo loads and When the viewport is smaller than 600 pixels, the cropped versions loads.  
+-this is 3th way to let the browser choose an image from `srcset` attribute based maximum viewport width using `picture` and `source` elements, `media` (which handle the media queries) and `srcset` attributes. in this scenario, When the viewport is a minimum of 600 pixels wide or bigger, the landscape versions of this photo loads and When the viewport is smaller than 600 pixels, the cropped versions loads.  
 -check and compare all 3 ways to swap out between different images with various sizes based different browser viewport on [myown modified code snippet in here](https://codepen.io/ma400/pen/bGoRdQg?editors=1100).  
 -[here is the original code snippet](https://codepen.io/jensimmons/pen/wvwXLQa?editors=1100) of this lesson which only demonstrate the 3th method.
 
@@ -169,7 +169,11 @@ swap out-to exchange
 
 fantastic-extremely good
 ## Figure and figcaption
-> -`<figure>` element mark up a photo in a document, and a `<figcaption>` element define a caption for the photo. it provides the browser with more semantic contents and let the AI search engines know that these 2 pieces of content have a relationship to each other.
+> -`<figure>` element marks up a photo in a document, and a `<figcaption>` element define a caption for the photo.
+>
+>cons|pros
+>-|-
+>it takes more context than if we'd only use `<p>` or generic `<div>`|it provides the browser with more semantic contents and let the AI search engines know that these 2 pieces of content have a relationship to each other
 >```html
 ><figure>
 ><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/maggie2.png"

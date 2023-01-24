@@ -1,6 +1,6 @@
 # 09-Forms and Interactive Elements
 ## HTML form basics
-> -Form fields have been an integral part of the web for decades. We log into sites , buy things , request a search, add content to a site through semantic form elements.  
+> -Form fields have been an integral part of the web for decades. We log into sites, buy things, request a search, add content to a site through semantic form elements.  
 -By using HTML `<form>` elements we tap into the power that's built into the browser ensure that our forms will work on every device.  
 -`<input>` element has 2 diffrence with other elements:
 > 
@@ -68,7 +68,7 @@ integral-necessary and important as a part of a whole
 
 tap into sth-to manage to use something in a way that brings good results
 
-profoundly-(of a person or statement) having or showing great knowledge or insight ; (of a state, quality, or emotion) very great or intense
+profoundly-(of a person or statement) having or showing great knowledge or insight; (of a state, quality, or emotion) very great or intense
 
 hook sth up-to connect two things
 
@@ -85,7 +85,7 @@ leverage-to use something that you already have in order to achieve something ne
 >-`<type>` element define the type of input we want from fields. If you leave `<type>` off, as we did in the last lesson, the browser will assume that it's type of text.  
 -with `type="email"` the browser will double-check, and see if the data that they entered is an email. if a user tries to type something that's not an email address, they get a warning, and are asked to fix it.  
 -`type="submit"` tells the browser that our button is a submit button.  
--We can also add a `required` attribute, to make the email feel required. Now the browser will insist that the user fills out the email field, before the form can be submitted.  
+-We can also add a `required` attribute, to make the email field required. Now the browser will insist that the user fills out the email field, before the form can be submitted.  
 -`placeholder` attribute could help users understand what they should fill into the field. We use the `placeholder` attribute, and put a suggestion, or an example. It's light gray by default. And as soon as I click into this field, the placeholder disappears. It's only a suggestion, it disappears.  
 -`value` attribute make pre-populated fileds with real content. When I go to type my own email address in here, the suggested one is in the way. I have to manually erase it to put in my own.  
 -[Check the complete Code snippet in here](moreOnForms.html)
@@ -155,6 +155,8 @@ integrated-combined to form a single thing
 >-[Check the complete Code snippet in here](additionalFormElementTypes.html)
 
 `<legend>` Tag-The legend elements are the parent element. This tag is used to define the caption for the `<fieldset>` element.
+
+tap into-to access
 ## Chapter Quiz
 >-by specifying the `type` attribute , we can require a certain format for data entered into an `<input>` element.  There are many types, including telephone numbers, dates, names, and others.  
 -The label element provides easier access to the form field, but has nothing to do with type attributes.  

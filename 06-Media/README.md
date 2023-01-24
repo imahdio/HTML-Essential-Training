@@ -6,7 +6,7 @@
 -`loop` attribute start playing from the beginning again.  
 -`autoplay` attribute will cause the audio to be played automatically as soon as the page loads, at least in some browsers. Notice most people actually hate it when the audio starts playing automatically when they land on a webpage.  
 >```html
-><audio controls loop autoplay src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+><audio controls loop autoplay src="https://s.cdpn.io/10558/birds.mp3"></audio>
 >```
 >-we can use `<source>` element to specify more than one audio file. perhaps you want to use a new file format that's not supported in every browser while providing a fallback for the older browsers. The browser will use the first file that it understands in the list. You can also provide some fallback text that will only be displayed if the audio element is not understood by the browser at all. [original example same like following code snippet](https://codepen.io/jensimmons/pres/BaBVdWp?editors=1000)  
 >```html
@@ -32,25 +32,26 @@ cousin-a child of one's uncle or aunt
 AV1 video file format-AV1 is a new video codec with 30% more efficient than High Efficiency Video Coding or H.265
 
 ## Video
->-One way to put video content on a webpage is to use the `<video>` element in HTML.  
--`source` attribute point to a video file.  
--`control` attribute tells the browser to create a video player for us.  
--mp4 video file is compressed using H.264 codec. The H.264 codec currently has the widest support across browsers.  
+>-One way to put video content on a webpage is to use the `<video>` element in HTML, `src` attribute point to a video file & `control` attribute tells the browser to create a video player for us.  
+>```html
+><video controls src="https://s.cdpn.io/10558/moonwalk.480p.h264.mp4"></video>
+>```
+>-mp4 video file is compressed using H.264 codec. The H.264 codec currently has the widest support across browsers.  
 -any internet video is using a pretty hefty mechanism for smashing all the data into the smallest possible package.  
 -There've been many attempts to make the ultimate codec, Real Video, Sorenson, Windows Media, Flash, H.263  
 -The H.264 codec is the one that's dominated. it's not open source, it's patented. It's owned by a consortium that charges fees for every device wants to be able to record, compress or play H.264 files. And, they are about to charge way more for H.265  
--this instructor believes like html and public image formats , none of the underlying technology on the web should be patented. To fix this, a lot of effort has gone into creating a truly open, not patented, but still super awesome video codecs like WebM and AV1. Time will tell on how things shake out.  
+-this instructor believes like html and public image formats, none of the underlying technology on the web should be patented. To fix this, a lot of effort has gone into creating a truly open, not patented, but still super awesome video codecs, like WebM and AV1. Time will tell on how things shake out.  
 -`source` element list the multiple file formats. `src` attribute link to the file, and the `type` attribute tell the browser which type of file it is. The browser will play the first file that it understands. [Following Code on codepen.io](https://codepen.io/jensimmons/pres/VwZdzBe)
 >```html
 ><video controls>
->	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+>	<source src="https://s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
 >  			type="video/webm">
->	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+>	<source src="https://s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
 >  			type="video/mp4">
 ></video>
 >```
->-there's nothing in HTML that will allow us to send different sizes of video under different network c that's because we don't want the device to get only one moment to make a choice between standard def and high def. We want it to make that choice over and over again while playing the video.  
--All video apps like youtube are constantly switching from one resolution to another as people watch, using a technique called adaptive bitrate streaming which is really complicated and requires a Data Center of transcoding robots. that's why when you go to put video on a website, it's likely you might not use the video element , instead use embed code from a video hosting service.
+>-There's nothing in HTML that will allow us to send different sizes of video under different network, that's because we don't want the device to get only one moment to make a choice between standard def and high def. We want it to make that choice over and over again while playing the video.  
+-All video apps like youtube are constantly switching from one resolution to another as people watch, using a technique called adaptive bitrate streaming which is really complicated and requires a Data Center of transcoding robots. that's why when you go to put video on a website, it's likely you might not use the video element, instead use embed code from a video hosting service.
 
 revolutionize-to completely change something so that it is much better
 
@@ -60,7 +61,7 @@ transmit-to broadcast something, or to send out or carry signals or messages usi
 
 hefty-large in amount or size
 
-smash into-hit object against another with great force , to cause someone or something to collide into someone or something with great, violent force.
+smash into-hit object against another with great force, to cause someone or something to collide into someone or something with great, violent force.
 
 ultimate-being or happening at the end of a process; final
 
@@ -70,7 +71,7 @@ patent-to get the official legal right to make or sell an invention
 
 consortium-a group of companies, organizations, etc. that have joined together to work on a particular project
 
-underlying technology-*based my study friend opinion* fundamental or basic technology and to get into more details it is refering to html css and javascript
+underlying technology-*based my study friend opinion* fundamental or basic technology (to get into more details it maybe refering to html, css and javascript)
 
 emerge-to appear or become known
 
@@ -89,30 +90,37 @@ transcode-convert (language or information) from one form of coded representatio
 ## Captions and subtitles
 >-to make video more accessible to every one add captions with `<track>` element and point to a text file. The video player will provide all the functionality so a viewer can turn captioning on and off or switch from one set of subtitles to another.  
 -there are many file formats for captions. But on the web, we want to use webvtt, web video text tracks. It's basically a plain text file with a vtt extension and the time code information that tells the video player when to show each line.  
--to get these captions to show up on our video we put a `<track>` element inside the `<video>` element. On the `<track>` element, we'll use the `src` attribute to point to the .vtt subtitle file. We'll use the `kind` attribute to tell the browser that this is captions or subtitles. We'll add a `label` of english that will show up in the player as a label for this choice. We'll use a `srclang` attribute to specify which language this is. And we'll put a `default` attribute on this track element to specify that this track is the one we want to use by default when a user turns on captions. [original code example](https://codepen.io/jensimmons/pres/KKPevBe?editors=1100)
+-to get these captions to show up on our video we put a `<track>` element inside the `<video>` element. On the `<track>` element, we'll use
+>* `src` attribute to point to the .vtt subtitle file
+>* `kind` attribute to tell the browser that this is captions or subtitles
+>* `label` of english that will show up in the player as a label for this choice
+>* `srclang` attribute to specify which language this is
+>* `default` attribute on this track element to specify that this track is the one we want to use by default when a user turns on captions.
+>
+>[Check the original code in here](https://codepen.io/jensimmons/pres/KKPevBe) / [My modified code with activated captions](https://codepen.io/imahdio/pen/gOjvBNr)
 >```html
 ><video controls>
->  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+>  <source src="https://s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
 >    type="video/webm">
->  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+>  <source src="https://s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
 >    type="video/mp4">
 > 
->  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+>  <track src="https://s.cdpn.io/10558/moonwalk.vtt"
 >         kind="captions"
 >         label="English"
 >         srclang="en"
 >         default>
 >
->   <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+>   <track src="https://s.cdpn.io/10558/moonwalk.es-la.es.vtt"
 >         kind="subtitles"
 >         label="Español"
 >         srclang="es">
->  
+>
 >  <p>This would be a video of a moonwalk, if your device supported playing this video.</p>
 ></video>
 >```
 >NOTICE: The subtitles of above code snippet not be appeared on video player unless we add `crossorigin="*"` inside `<video>` tag. [check this issue for more info](https://github.com/imahdio/HTML-Essential-Training/issues/6)  
->NOTICE: Based on this lesson and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) , there are several options for kind attribute includes:  
+>-Based on this lesson and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track), there are several options for `kind` attribute includes:  
 >* `captions` provides a transcription of audio.
 >* `subtitles` provides translation of content.
 >* `descriptions` provides descriptive information about what's happening visually in the video. This gives people the option of playing a track that reads aloud descriptions.  
@@ -126,6 +134,7 @@ deaf-unable to hear, either completely or partly
 
 bounce-to (cause to) move up or away after hitting a surface
 
+there you go-you have done it, or are doing it, correctly
 ## Embedding other media through iframes 
 >-embedding is taking content from one site and placing it into the middle of a page on another site.  
 -you can embed a map from Google or Mapbox or a code demo from CodePen or Glitch or a slide deck from Speaker Deck or Notist. It's common to embed something complex from a service that takes care of all the hard parts for you.  
@@ -136,13 +145,15 @@ likely-probably
 
 white label product-It's a product or service produced by one company (the producer) that other companies (the marketers) rebrand to make it appear as if they had made it.
 ## Chapter Quiz
->-we can't create a video element that specifies diffrent resolutions of video that browsers can choose from when loading the video. Instead, the browser adapts to circumstances as needed. (*in my point of view this quotation is wrong because based what I learn from Video lesson without using adaptive bitrate streaming technology on server side , neither browser nor html element cannot switch between diffrent resolutions of video*)  
+>-we can't create a video element that specifies diffrent resolutions of video that browsers can choose from when loading the video. Instead, the browser adapts to circumstances as needed. (*in my point of view this quotation is wrong because based what I learn from Video lesson without using adaptive bitrate streaming technology on server side, neither browser nor html element cannot switch between diffrent resolutions of video*)  
 >-the following code snippet produces an audio player with control features.
 >```html
 ><audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
 >```
 >-built in HTML video players do not permit adaptive bitrate streaming.  
 >-Embed codes built with the iframe element make it easier combine content from other sources into your pages and apps.  
+
+adapt-become adjusted to new conditions
 
 drawback-a disadvantage or the negative part of a situation
 

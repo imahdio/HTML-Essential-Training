@@ -7,10 +7,10 @@
 -we only should use Html tables for tabular data. tables are for such things like:
 >* a chart of data from a research project, that's a table.
 >* a bunch of information that's best communicated by aligning things into rows and columns, that's a data table.
->* comparing prices of things that are for sale, population data by town, election results, product comparisons, schedules,bits of information collected that you want people to be able to quickly compare.
+>* comparing prices of things that are for sale, population data by town, election results, product comparisons, schedules, bits of information collected that you want people to be able to quickly compare.
 >
->-as long as there's a semantic reason for the data to be organized into a table , use a table in HTML to semantically mark it up as what it is.    
--you can use CSS to rearrange how a table is displayed so it might not always look like a traditional table. Especially, perhaps, for small screens. Changing the layout for different sized screens.  
+>-as long as there's a semantic reason for the data to be organized into a table, use a table in HTML to semantically mark it up as what it is.    
+-you can use CSS to rearrange how a table is displayed so it might not always look like a traditional table. Especially, perhaps, for small screens. Changing the layout for different sized screens.
 
 somewhere along the way-at some point in time
 
@@ -20,11 +20,11 @@ tabular-arranged in rows and columns, in the form of a table
 
 pretend-behave so as to make it appear that something is the case when in fact it is not
 
-sore-painful and uncomfortable because of injury, infection, or too much use
+sore-upset and angry
 
-scramble-an act of hurrying , quick movement
+scramble-move quickly in a disorganized fashion; When you scramble a message, it can no longer be read
 
-Messy -untidy, disorganized
+Messy-untidy, disorganized
 
 typeset-to arrange printed text and images on the page when preparing a book, newspaper, etc. for printing
 
@@ -34,11 +34,11 @@ break sth up-to divide into many pieces, or to divide something into many pieces
 
 jam-squeeze or pack tightly into a specified space
 
-horrible-very shocking and frightening,very unpleasant
+horrible-very shocking and frightening, very unpleasant
 
 lay out something-to arrange in a pattern or design
 
-population data-a set of individuals who share a characteristic or set of these , a population is mainly determined by geographies, such as all people in California, or all people in the United States
+population data-a set of individuals who share a characteristic or set of these, a population is mainly determined by geographies, such as all people in California, or all people in the United States
 
 town-a place where there are a lot of houses, stores, and other buildings which is smaller than a city
 
